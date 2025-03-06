@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 4d101bc25e9e77641baca7c68f6de21b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 773596795308394530
+    second: pipo-map001_32x32_0
+  - first:
+      213: -4210542723591170063
+    second: pipo-map001_32x32_1
+  - first:
+      213: 4062997522894641788
+    second: pipo-map001_32x32_2
+  - first:
+      213: -5260812147125958625
+    second: pipo-map001_32x32_3
+  - first:
+      213: 202056645391226334
+    second: pipo-map001_32x32_4
+  - first:
+      213: -1850819444712277724
+    second: pipo-map001_32x32_5
+  - first:
+      213: 8370578930443468486
+    second: pipo-map001_32x32_6
+  - first:
+      213: -6983591907211299544
+    second: pipo-map001_32x32_7
+  - first:
+      213: -3735908609364986271
+    second: pipo-map001_32x32_8
+  - first:
+      213: -4736561744736221541
+    second: pipo-map001_32x32_9
+  - first:
+      213: -9077944093507515953
+    second: pipo-map001_32x32_10
+  - first:
+      213: -9128571816321096950
+    second: pipo-map001_32x32_11
+  - first:
+      213: -2123593019412821846
+    second: pipo-map001_32x32_12
+  - first:
+      213: 6104764590563455628
+    second: pipo-map001_32x32_13
+  - first:
+      213: 4873762788178075443
+    second: pipo-map001_32x32_14
+  - first:
+      213: 6928007558375485195
+    second: pipo-map001_32x32_15
+  - first:
+      213: 5418769827768307720
+    second: pipo-map001_32x32_16
+  - first:
+      213: 4572301881426470155
+    second: pipo-map001_32x32_17
+  - first:
+      213: 2906928033226695421
+    second: pipo-map001_32x32_18
+  - first:
+      213: 5981625384268900941
+    second: pipo-map001_32x32_19
+  - first:
+      213: 607254095489119395
+    second: pipo-map001_32x32_20
+  - first:
+      213: -5777706182140941401
+    second: pipo-map001_32x32_21
+  - first:
+      213: 8619705513578075536
+    second: pipo-map001_32x32_22
+  - first:
+      213: 6370106915077115199
+    second: pipo-map001_32x32_23
+  - first:
+      213: 1642735373345388864
+    second: pipo-map001_32x32_24
+  - first:
+      213: 6563851026073693448
+    second: pipo-map001_32x32_25
+  - first:
+      213: 6668561519001289523
+    second: pipo-map001_32x32_26
+  - first:
+      213: -315101424474949791
+    second: pipo-map001_32x32_27
+  - first:
+      213: 1461701996887147312
+    second: pipo-map001_32x32_28
+  - first:
+      213: 280362442568446246
+    second: pipo-map001_32x32_29
+  - first:
+      213: -153465077613312019
+    second: pipo-map001_32x32_30
+  - first:
+      213: 5789726985924502593
+    second: pipo-map001_32x32_31
+  - first:
+      213: -8933937137332553101
+    second: pipo-map001_32x32_32
+  - first:
+      213: 2199769473104697930
+    second: pipo-map001_32x32_33
+  - first:
+      213: 2229889535721145904
+    second: pipo-map001_32x32_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pipo-map001_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228ccb7cf2e5cba00800000000000000
+      internalID: 773596795308394530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 479
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f71eb883b52195c0800000000000000
+      internalID: -4210542723591170063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 480
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a5d6b68baa26830800000000000000
+      internalID: 4062997522894641788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 480
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f184f74a937ddf6b0800000000000000
+      internalID: -5260812147125958625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 486
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed51d0dc279ddc200800000000000000
+      internalID: 202056645391226334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 481
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429f98665819056e0800000000000000
+      internalID: -1850819444712277724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 485
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceb37120354a2470800000000000000
+      internalID: 8370578930443468486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825b06a392c451f90800000000000000
+      internalID: -6983591907211299544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 415
+        width: 32
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166f979d9e2672cc0800000000000000
+      internalID: -3735908609364986271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 433
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b960b44403a544eb0800000000000000
+      internalID: -4736561744736221541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 434
+        width: 193
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc901a7a1f9a40280800000000000000
+      internalID: -9077944093507515953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 420
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03e98d5c4cc05180800000000000000
+      internalID: -9128571816321096950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 420
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8466e666b7782e0800000000000000
+      internalID: -2123593019412821846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 415
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82fae9fc0b78b450800000000000000
+      internalID: 6104764590563455628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f1fdcfe6513a340800000000000000
+      internalID: 4873762788178075443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 289
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f213e0b2a352060800000000000000
+      internalID: 6928007558375485195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 351
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8001cbfc276533b40800000000000000
+      internalID: 5418769827768307720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 289
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0566480654147f30800000000000000
+      internalID: 4572301881426470155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 351
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df22a1805ab775820800000000000000
+      internalID: 2906928033226695421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4aaec05890030350800000000000000
+      internalID: 5981625384268900941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4b70ae1666d6800800000000000000
+      internalID: 607254095489119395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 256
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab29e4c6d671dfa0800000000000000
+      internalID: -5777706182140941401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0951c45de785f9770800000000000000
+      internalID: 8619705513578075536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 226
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d4e6e2d7a276850800000000000000
+      internalID: 6370106915077115199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 225
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04978345e1b2cc610800000000000000
+      internalID: 1642735373345388864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 225
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80da4bf3bbb771b50800000000000000
+      internalID: 6563851026073693448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 231
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33349e6be5d7b8c50800000000000000
+      internalID: 6668561519001289523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 225
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16773f58ce880abf0800000000000000
+      internalID: -315101424474949791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 225
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03300f3c832094410800000000000000
+      internalID: 1461701996887147312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62137a5f72c04e300800000000000000
+      internalID: 280362442568446246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de74e633358ceddf0800000000000000
+      internalID: -153465077613312019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 192
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144e586b40e395050800000000000000
+      internalID: 5789726985924502593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 97
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a7f93f187440480800000000000000
+      internalID: -8933937137332553101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a57205ea6278e10800000000000000
+      internalID: 2199769473104697930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipo-map001_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360501e7b822fe10800000000000000
+      internalID: 2229889535721145904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pipo-map001_32x32_0: 773596795308394530
+      pipo-map001_32x32_1: -4210542723591170063
+      pipo-map001_32x32_10: -9077944093507515953
+      pipo-map001_32x32_11: -9128571816321096950
+      pipo-map001_32x32_12: -2123593019412821846
+      pipo-map001_32x32_13: 6104764590563455628
+      pipo-map001_32x32_14: 4873762788178075443
+      pipo-map001_32x32_15: 6928007558375485195
+      pipo-map001_32x32_16: 5418769827768307720
+      pipo-map001_32x32_17: 4572301881426470155
+      pipo-map001_32x32_18: 2906928033226695421
+      pipo-map001_32x32_19: 5981625384268900941
+      pipo-map001_32x32_2: 4062997522894641788
+      pipo-map001_32x32_20: 607254095489119395
+      pipo-map001_32x32_21: -5777706182140941401
+      pipo-map001_32x32_22: 8619705513578075536
+      pipo-map001_32x32_23: 6370106915077115199
+      pipo-map001_32x32_24: 1642735373345388864
+      pipo-map001_32x32_25: 6563851026073693448
+      pipo-map001_32x32_26: 6668561519001289523
+      pipo-map001_32x32_27: -315101424474949791
+      pipo-map001_32x32_28: 1461701996887147312
+      pipo-map001_32x32_29: 280362442568446246
+      pipo-map001_32x32_3: -5260812147125958625
+      pipo-map001_32x32_30: -153465077613312019
+      pipo-map001_32x32_31: 5789726985924502593
+      pipo-map001_32x32_32: -8933937137332553101
+      pipo-map001_32x32_33: 2199769473104697930
+      pipo-map001_32x32_34: 2229889535721145904
+      pipo-map001_32x32_4: 202056645391226334
+      pipo-map001_32x32_5: -1850819444712277724
+      pipo-map001_32x32_6: 8370578930443468486
+      pipo-map001_32x32_7: -6983591907211299544
+      pipo-map001_32x32_8: -3735908609364986271
+      pipo-map001_32x32_9: -4736561744736221541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
