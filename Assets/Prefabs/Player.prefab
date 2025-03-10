@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6863128568422773515}
   - component: {fileID: 3649808777134668510}
   m_Layer: 0
-  m_Name: Jamal_0 1
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 4081386477978426684, guid: 4e831f95d9c7bed4aac1809c2fef556c, type: 3}
+  m_Sprite: {fileID: -6851947080441724733, guid: f5d0d90b1eb1054468899e23e71126c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -213,8 +213,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12.8, y: 12.8}
+    pivot: {x: 0.5089021, y: -0.45945948}
+    oldSize: {x: 13.48, y: 0.74}
     newSize: {x: 12.8, y: 12.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
