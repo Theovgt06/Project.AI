@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
 
     private Vector2 moveDirection;
+    private float verticalSpeed;
     private bool isFacingRight = true;
 
     private void Awake()
@@ -43,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
     public void SetMoveDirection(Vector2 direction)
     {
+        // Negate Y axis directional input
+        direction.y = 0;
         moveDirection = direction;
 
         // Gestion de l'orientation du sprite
@@ -69,8 +73,9 @@ public class PlayerController : MonoBehaviour
         if (rb)
         {
             // Option 1: Velocity directe (mouvement plus direct)
-            rb.linearVelocity = moveDirection * moveSpeed;
-
+            // rb.linearVelocity = moveDirection * moveSpeed;
+            rb.linearVelocityX = moveDirection.x * moveSpeed;
+            rb.linearVelocityY = verticalSpeed;
             // Option 2: Force (physique plus réaliste mais plus lente)
             // rb.AddForce(moveDirection * moveSpeed);
 

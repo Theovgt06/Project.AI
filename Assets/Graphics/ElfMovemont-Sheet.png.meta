@@ -1,0 +1,879 @@
+fileFormatVersion: 2
+guid: f82271c336de9d147933240be37d5b7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4062310447815041216
+    second: ElfMovemont-Sheet_0
+  - first:
+      213: 3727220155173897763
+    second: ElfMovemont-Sheet_1
+  - first:
+      213: 772934595865733580
+    second: ElfMovemont-Sheet_2
+  - first:
+      213: 248989216739146667
+    second: ElfMovemont-Sheet_3
+  - first:
+      213: -2521283632941785275
+    second: ElfMovemont-Sheet_4
+  - first:
+      213: 6513831492774397367
+    second: ElfMovemont-Sheet_5
+  - first:
+      213: 6706629362248516138
+    second: ElfMovemont-Sheet_6
+  - first:
+      213: 5303269417823728802
+    second: ElfMovemont-Sheet_7
+  - first:
+      213: 9180053767204914562
+    second: ElfMovemont-Sheet_8
+  - first:
+      213: 5078221172204300921
+    second: ElfMovemont-Sheet_9
+  - first:
+      213: 3999369775805764328
+    second: ElfMovemont-Sheet_10
+  - first:
+      213: 4512738929175734896
+    second: ElfMovemont-Sheet_11
+  - first:
+      213: 2117085670217231434
+    second: ElfMovemont-Sheet_12
+  - first:
+      213: 7360105807968730716
+    second: ElfMovemont-Sheet_13
+  - first:
+      213: -3654021148486226895
+    second: ElfMovemont-Sheet_14
+  - first:
+      213: 2710603240328704726
+    second: ElfMovemont-Sheet_15
+  - first:
+      213: 4231518255362714775
+    second: ElfMovemont-Sheet_16
+  - first:
+      213: -8121970790427487669
+    second: ElfMovemont-Sheet_17
+  - first:
+      213: -1648809930975080597
+    second: ElfMovemont-Sheet_18
+  - first:
+      213: 3695711969629868504
+    second: ElfMovemont-Sheet_19
+  - first:
+      213: 1220862808515793606
+    second: ElfMovemont-Sheet_20
+  - first:
+      213: 1545924901065913685
+    second: ElfMovemont-Sheet_21
+  - first:
+      213: -950410604001394481
+    second: ElfMovemont-Sheet_22
+  - first:
+      213: 9047746335770297228
+    second: ElfMovemont-Sheet_23
+  - first:
+      213: -369349323099270751
+    second: ElfMovemont-Sheet_24
+  - first:
+      213: 2091854143966175045
+    second: ElfMovemont-Sheet_25
+  - first:
+      213: -7189694572073725332
+    second: ElfMovemont-Sheet_26
+  - first:
+      213: -7890362103270883105
+    second: ElfMovemont-Sheet_27
+  - first:
+      213: 5842633872740101096
+    second: ElfMovemont-Sheet_28
+  - first:
+      213: -3178129143482293283
+    second: ElfMovemont-Sheet_29
+  - first:
+      213: 4105869977084698824
+    second: ElfMovemont-Sheet_30
+  - first:
+      213: 297439394355822466
+    second: ElfMovemont-Sheet_31
+  - first:
+      213: -7470722321660387524
+    second: ElfMovemont-Sheet_32
+  - first:
+      213: 1515223918527853678
+    second: ElfMovemont-Sheet_33
+  - first:
+      213: 2231966183243870597
+    second: ElfMovemont-Sheet_34
+  - first:
+      213: 4697535365681355026
+    second: ElfMovemont-Sheet_35
+  - first:
+      213: 296666136825401015
+    second: ElfMovemont-Sheet_36
+  - first:
+      213: 1952210751737085537
+    second: ElfMovemont-Sheet_37
+  - first:
+      213: -1207916082134190478
+    second: ElfMovemont-Sheet_38
+  - first:
+      213: 9032432514907062677
+    second: ElfMovemont-Sheet_39
+  - first:
+      213: -231776234108307526
+    second: ElfMovemont-Sheet_40
+  - first:
+      213: 3299294336507201249
+    second: ElfMovemont-Sheet_41
+  - first:
+      213: 1454476009525335595
+    second: ElfMovemont-Sheet_42
+  - first:
+      213: 972788374970057622
+    second: ElfMovemont-Sheet_43
+  - first:
+      213: 941871553740347443
+    second: ElfMovemont-Sheet_44
+  - first:
+      213: 9002327655386025863
+    second: ElfMovemont-Sheet_45
+  - first:
+      213: -5564359395868621796
+    second: ElfMovemont-Sheet_46
+  - first:
+      213: -807353628853062271
+    second: ElfMovemont-Sheet_47
+  - first:
+      213: -5632559234807569225
+    second: ElfMovemont-Sheet_48
+  - first:
+      213: 7449824468634489882
+    second: ElfMovemont-Sheet_49
+  - first:
+      213: -4530754344876671280
+    second: ElfMovemont-Sheet_50
+  - first:
+      213: 5247288351853363058
+    second: ElfMovemont-Sheet_51
+  - first:
+      213: 6367819457335387121
+    second: ElfMovemont-Sheet_52
+  - first:
+      213: 5682641145855891278
+    second: ElfMovemont-Sheet_53
+  - first:
+      213: -4165537135131362779
+    second: ElfMovemont-Sheet_54
+  - first:
+      213: 3425418866110057747
+    second: ElfMovemont-Sheet_55
+  - first:
+      213: -6120037738731626112
+    second: ElfMovemont-Sheet_56
+  - first:
+      213: -6469192723447611384
+    second: ElfMovemont-Sheet_57
+  - first:
+      213: -2575761665673232208
+    second: ElfMovemont-Sheet_58
+  - first:
+      213: -9008615318337554286
+    second: ElfMovemont-Sheet_59
+  - first:
+      213: -3689332000377709309
+    second: ElfMovemont-Sheet_60
+  - first:
+      213: 8420705200781175154
+    second: ElfMovemont-Sheet_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07aa895852870ae30800000000000000
+      internalID: 4512738929175734896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c2e544336616d10800000000000000
+      internalID: 2117085670217231434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ef341ac39542660800000000000000
+      internalID: 7360105807968730716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ca6b2102f4a4dc0800000000000000
+      internalID: -3654021148486226895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2b0d2294ffd9520800000000000000
+      internalID: 2710603240328704726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ca9770f6f59ba30800000000000000
+      internalID: 4231518255362714775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4298702996f84f80800000000000000
+      internalID: -8121970790427487669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f08128a104e19e0800000000000000
+      internalID: -1648809930975080597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d192f5a47ec94330800000000000000
+      internalID: 3695711969629868504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2d115814061f010800000000000000
+      internalID: 1220862808515793606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 621
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555f671c18a347510800000000000000
+      internalID: 1545924901065913685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c023168dfafaf830800000000000000
+      internalID: 4105869977084698824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f39c2ad87b02400800000000000000
+      internalID: 297439394355822466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fd9d941a9a25890800000000000000
+      internalID: -7470722321660387524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64370b3028270510800000000000000
+      internalID: 1515223918527853678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5817fee0b6989fe10800000000000000
+      internalID: 2231966183243870597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2199547c68ff03140800000000000000
+      internalID: 4697535365681355026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be8d569748fd1400800000000000000
+      internalID: 296666136825401015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 365
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ebcffd555a71b10800000000000000
+      internalID: 1952210751737085537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 237
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69348bb7fd9008d00800000000000000
+      internalID: 972788374970057622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 237
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3381db81033321d00800000000000000
+      internalID: 941871553740347443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 237
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f85f26e41beec70800000000000000
+      internalID: 9002327655386025863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 237
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14c4a65c9c67c2b0800000000000000
+      internalID: -5564359395868621796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfMovemont-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 237
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1853710f624bbc4f0800000000000000
+      internalID: -807353628853062271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2d3ee69c2105684408da45486b21c0a8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ElfMovemont-Sheet_0: 4062310447815041216
+      ElfMovemont-Sheet_1: 3727220155173897763
+      ElfMovemont-Sheet_10: 3999369775805764328
+      ElfMovemont-Sheet_11: 4512738929175734896
+      ElfMovemont-Sheet_12: 2117085670217231434
+      ElfMovemont-Sheet_13: 7360105807968730716
+      ElfMovemont-Sheet_14: -3654021148486226895
+      ElfMovemont-Sheet_15: 2710603240328704726
+      ElfMovemont-Sheet_16: 4231518255362714775
+      ElfMovemont-Sheet_17: -8121970790427487669
+      ElfMovemont-Sheet_18: -1648809930975080597
+      ElfMovemont-Sheet_19: 3695711969629868504
+      ElfMovemont-Sheet_2: 772934595865733580
+      ElfMovemont-Sheet_20: 1220862808515793606
+      ElfMovemont-Sheet_21: 1545924901065913685
+      ElfMovemont-Sheet_22: -950410604001394481
+      ElfMovemont-Sheet_23: 9047746335770297228
+      ElfMovemont-Sheet_24: -369349323099270751
+      ElfMovemont-Sheet_25: 2091854143966175045
+      ElfMovemont-Sheet_26: -7189694572073725332
+      ElfMovemont-Sheet_27: -7890362103270883105
+      ElfMovemont-Sheet_28: 5842633872740101096
+      ElfMovemont-Sheet_29: -3178129143482293283
+      ElfMovemont-Sheet_3: 248989216739146667
+      ElfMovemont-Sheet_30: 4105869977084698824
+      ElfMovemont-Sheet_31: 297439394355822466
+      ElfMovemont-Sheet_32: -7470722321660387524
+      ElfMovemont-Sheet_33: 1515223918527853678
+      ElfMovemont-Sheet_34: 2231966183243870597
+      ElfMovemont-Sheet_35: 4697535365681355026
+      ElfMovemont-Sheet_36: 296666136825401015
+      ElfMovemont-Sheet_37: 1952210751737085537
+      ElfMovemont-Sheet_38: -1207916082134190478
+      ElfMovemont-Sheet_39: 9032432514907062677
+      ElfMovemont-Sheet_4: -2521283632941785275
+      ElfMovemont-Sheet_40: -231776234108307526
+      ElfMovemont-Sheet_41: 3299294336507201249
+      ElfMovemont-Sheet_42: 1454476009525335595
+      ElfMovemont-Sheet_43: 972788374970057622
+      ElfMovemont-Sheet_44: 941871553740347443
+      ElfMovemont-Sheet_45: 9002327655386025863
+      ElfMovemont-Sheet_46: -5564359395868621796
+      ElfMovemont-Sheet_47: -807353628853062271
+      ElfMovemont-Sheet_5: 6513831492774397367
+      ElfMovemont-Sheet_6: 6706629362248516138
+      ElfMovemont-Sheet_7: 5303269417823728802
+      ElfMovemont-Sheet_8: 9180053767204914562
+      ElfMovemont-Sheet_9: 5078221172204300921
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

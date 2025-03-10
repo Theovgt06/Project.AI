@@ -14,7 +14,7 @@ public class Orbiter : MonoBehaviour
     {
         // Mise à jour de l'angle, rayon et vitesse
         radius = math.max(math.min((centerPoint.position - transform.position).magnitude, 4f), 1f);
-        // orbitSpeed = 150f - radius*15f;
+        orbitSpeed = 300f - radius*20f;
         angleActuel += orbitSpeed * Time.deltaTime;
 
         // Calculer la nouvelle position
