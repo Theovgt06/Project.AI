@@ -8,17 +8,11 @@ public class PlayerController : MonoBehaviour
 
     [Header("Références")]
     [SerializeField] private Rigidbody2D rb;
+    CharacterController h;
 
     private Vector2 moveDirection;
     private bool isFacingRight = true;
 
-    private void Awake()
-    {
-        if (rb == null)
-        {
-            rb = GetComponent<Rigidbody2D>();
-        }
-    }
 
     private void Start()
     {
@@ -43,6 +37,7 @@ public class PlayerController : MonoBehaviour
 
     public void SetMoveDirection(Vector2 direction)
     {
+       direction.y = 0;
         moveDirection = direction;
 
         // Gestion de l'orientation du sprite
