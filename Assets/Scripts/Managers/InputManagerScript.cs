@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 public class InputManagerScript : MonoBehaviour
 {
    public static InputManagerScript Instance { get; private set; }
-  
    // Propriété pour accéder au PlayerInput depuis d'autres systèmes
    [SerializeField] private PlayerInput playerInput;
 

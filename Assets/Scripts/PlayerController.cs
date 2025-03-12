@@ -1,3 +1,5 @@
+using System;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,14 +7,22 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Mouvement")]
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float initialJumpSpeed = 20f;
+    [SerializeField] private float fallAcceleration = 0.5f;
+    [SerializeField] private float jumpAcceleration = 0.4f;
+    [SerializeField] public float verticalSpeed = 0f;
+    [SerializeField] private ContactFilter2D groundContactFilter;
+    public bool IsGrounded => rb.IsTouching(groundContactFilter);
 
     [Header("Références")]
     [SerializeField] private Rigidbody2D rb;
-    CharacterController h;
+    // [SerializeField] private GroudDetector groundTrigger;
+    [SerializeField] private Animator anim;
 
+    CharacterController h;
     private Vector2 moveDirection;
     private bool isFacingRight = true;
-
+    private bool jumping = false;
 
     private void Start()
     {
@@ -37,7 +47,7 @@ public class PlayerController : MonoBehaviour
 
     public void SetMoveDirection(Vector2 direction)
     {
-       direction.y = 0;
+        direction.y = 0;
         moveDirection = direction;
 
         // Gestion de l'orientation du sprite
@@ -57,22 +67,35 @@ public class PlayerController : MonoBehaviour
         Move();
     }
 
-    // ReSharper disable Unity.PerformanceAnalysis
     private void Move()
     {
         // Mouvement avec Rigidbody2D pour une meilleure physique
         if (rb)
         {
-            // Option 1: Velocity directe (mouvement plus direct)
-            rb.linearVelocity = moveDirection * moveSpeed;
+            // print(IsGrounded);
+            if (IsGrounded) {
+                verticalSpeed = math.max(0, verticalSpeed);
+                if (verticalSpeed == 0) {
+                    anim.SetBool("Airborne", false);
+                }
+            }
+            else if (jumping) {
+                verticalSpeed -= jumpAcceleration;
+            }
+            else {
+                verticalSpeed -= fallAcceleration;
+            }
+            rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, verticalSpeed);
 
-            // Option 2: Force (physique plus réaliste mais plus lente)
-            // rb.AddForce(moveDirection * moveSpeed);
-
-            // Option 3: MovePosition (plus précis mais moins d'interactions physiques)
-            // Vector2 position = rb.position;
-            // position += moveDirection * moveSpeed * Time.fixedDeltaTime;
-            // rb.MovePosition(position);
+            if (moveDirection.x == 0) {
+                anim.SetBool("Moving", false);
+            }
+            else {
+                anim.SetBool("Moving", true);
+            }
+            if (verticalSpeed != 0) {
+                anim.SetBool("Airborne", true);
+            }
         }
         else
         {
@@ -87,5 +110,19 @@ public class PlayerController : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+    }
+
+    internal void JumpStart()
+    {
+        if (IsGrounded) {
+        // if (canJump) {
+            jumping = true;
+            verticalSpeed = initialJumpSpeed;
+        }
+    }
+
+    internal void JumpEnd()
+    {
+        jumping = false;
     }
 }
