@@ -74,28 +74,29 @@ public class PlayerController : MonoBehaviour
         {
             // print(IsGrounded);
             if (IsGrounded) {
-                verticalSpeed = math.max(0, verticalSpeed);
-                if (verticalSpeed == 0) {
+                // verticalSpeed = math.max(0, verticalSpeed);
+                if (verticalSpeed < 0) {
+                    verticalSpeed = 0;
+                    // print("test");
+                    anim.SetTrigger("Landing");
                     anim.SetBool("Airborne", false);
                 }
             }
-            else if (jumping) {
-                verticalSpeed -= jumpAcceleration;
-            }
             else {
-                verticalSpeed -= fallAcceleration;
+                anim.SetBool("Airborne", true);
+                if (jumping) {
+                    verticalSpeed -= jumpAcceleration;
+                }
+                else {
+                    verticalSpeed -= fallAcceleration;
+                }
+
             }
+            anim.SetBool("Moving", moveDirection.x != 0);
+            anim.SetFloat("VerticalSpeed", verticalSpeed);
+
             rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, verticalSpeed);
 
-            if (moveDirection.x == 0) {
-                anim.SetBool("Moving", false);
-            }
-            else {
-                anim.SetBool("Moving", true);
-            }
-            if (verticalSpeed != 0) {
-                anim.SetBool("Airborne", true);
-            }
         }
         else
         {
@@ -115,14 +116,15 @@ public class PlayerController : MonoBehaviour
     internal void JumpStart()
     {
         if (IsGrounded) {
-        // if (canJump) {
             jumping = true;
             verticalSpeed = initialJumpSpeed;
+            anim.SetTrigger("Jumping");
         }
     }
 
     internal void JumpEnd()
     {
+        //increases the downward acceleration once the jump button is released to jump lower
         jumping = false;
     }
 }

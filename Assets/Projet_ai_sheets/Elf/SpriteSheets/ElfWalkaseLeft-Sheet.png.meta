@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElfWalkaseLeft-Sheet_0: -4043894136649656358
+      ElfWalkaseLeft-Sheet_1: -7855963876945685863
+      ElfWalkaseLeft-Sheet_2: 6010379915339233247
+      ElfWalkaseLeft-Sheet_3: -8484516548965469829
+      ElfWalkaseLeft-Sheet_4: -1197818723336864278
+      ElfWalkaseLeft-Sheet_5: -2714021156225278555
+      ElfWalkaseLeft-Sheet_6: -81454098664099139
+      ElfWalkaseLeft-Sheet_7: -9091944092606551506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

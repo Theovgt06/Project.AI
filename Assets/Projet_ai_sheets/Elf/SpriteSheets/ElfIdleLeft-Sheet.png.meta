@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElfIdleLeft-Sheet_0: -4746896457744832751
+      ElfIdleLeft-Sheet_1: 437410926124547170
+      ElfIdleLeft-Sheet_10: 6761729102042896500
+      ElfIdleLeft-Sheet_2: 9057092185814651466
+      ElfIdleLeft-Sheet_3: -8053502633339599135
+      ElfIdleLeft-Sheet_4: -5313509703015348953
+      ElfIdleLeft-Sheet_5: 7800589020465613956
+      ElfIdleLeft-Sheet_6: -5969575796751714555
+      ElfIdleLeft-Sheet_7: 3566380676235670543
+      ElfIdleLeft-Sheet_8: -5964826386453439521
+      ElfIdleLeft-Sheet_9: 7594027090281101331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
