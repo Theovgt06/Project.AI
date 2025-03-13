@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     CharacterController h;
     private Vector2 moveDirection;
     private bool isFacingRight = true;
-    private bool jumping = false;
+    private bool jumpKey = false;
 
     private void Start()
     {
@@ -84,7 +84,7 @@ public class PlayerController : MonoBehaviour
             }
             else {
                 anim.SetBool("Airborne", true);
-                if (jumping) {
+                if (jumpKey) {
                     verticalSpeed -= jumpAcceleration;
                 }
                 else {
@@ -96,7 +96,6 @@ public class PlayerController : MonoBehaviour
             anim.SetFloat("VerticalSpeed", verticalSpeed);
 
             rb.linearVelocity = new Vector2(moveDirection.x * moveSpeed, verticalSpeed);
-
         }
         else
         {
@@ -116,7 +115,7 @@ public class PlayerController : MonoBehaviour
     internal void JumpStart()
     {
         if (IsGrounded) {
-            jumping = true;
+            jumpKey = true;
             verticalSpeed = initialJumpSpeed;
             anim.SetTrigger("Jumping");
         }
@@ -125,6 +124,6 @@ public class PlayerController : MonoBehaviour
     internal void JumpEnd()
     {
         //increases the downward acceleration once the jump button is released to jump lower
-        jumping = false;
+        jumpKey = false;
     }
 }
