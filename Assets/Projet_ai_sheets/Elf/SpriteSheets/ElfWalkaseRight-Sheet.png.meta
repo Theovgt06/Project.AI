@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: e57e15280c5315545929eeb17836e184
+guid: 5385e44cccd4da14a88763587d6f4cfc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8961948739834356248
-    second: ElfJump-Sheet_0
+      213: 1897620667148870812
+    second: ElfWalkaseRight-Sheet_0
   - first:
-      213: -4797509765567928026
-    second: ElfJump-Sheet_1
+      213: 2379973708204526267
+    second: ElfWalkaseRight-Sheet_1
   - first:
-      213: 1907671851903187890
-    second: ElfJump-Sheet_2
+      213: -8559147181936452940
+    second: ElfWalkaseRight-Sheet_2
   - first:
-      213: 7239554305345067969
-    second: ElfJump-Sheet_3
+      213: -395939019762505043
+    second: ElfWalkaseRight-Sheet_3
   - first:
-      213: 2108881537195145520
-    second: ElfJump-Sheet_4
+      213: -3687243604578303115
+    second: ElfWalkaseRight-Sheet_4
+  - first:
+      213: 1369518254448859531
+    second: ElfWalkaseRight-Sheet_5
+  - first:
+      213: 1853244194634762822
+    second: ElfWalkaseRight-Sheet_6
+  - first:
+      213: -3371323876031322428
+    second: ElfWalkaseRight-Sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,111 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ElfJump-Sheet_0
+      name: ElfWalkaseRight-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
+        x: 9
+        y: 32
+        width: 86
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4f6a24e47ae27cb45b3e0c5b78b5fbe9
-      internalID: 1789739821
+      spriteID: c9429d751f3b55a10800000000000000
+      internalID: 1897620667148870812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfJump-Sheet_1
+      name: ElfWalkaseRight-Sheet_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
+        x: 143
+        y: 29
+        width: 80
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 07480d3b12570214d86dba313443b01c
-      internalID: 1494102611
+      spriteID: bbacc4c5a7d570120800000000000000
+      internalID: 2379973708204526267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfJump-Sheet_2
+      name: ElfWalkaseRight-Sheet_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
+        x: 267
+        y: 34
+        width: 84
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f238e1e42a8fef84e9de15c095c8e315
-      internalID: -331680018
+      spriteID: 4ba54608cfcc73980800000000000000
+      internalID: -8559147181936452940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfJump-Sheet_3
+      name: ElfWalkaseRight-Sheet_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
+        x: 392
+        y: 37
+        width: 87
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 09c331f5fc13b3743bd58fcf2fc04324
-      internalID: 839781970
+      spriteID: daae65e2f87518af0800000000000000
+      internalID: -395939019762505043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfJump-Sheet_4
+      name: ElfWalkaseRight-Sheet_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
+        x: 515
+        y: 32
+        width: 92
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 37b9a867026e0244ab450585419412bd
-      internalID: -21413911
+      spriteID: 57387cc3a7744dcc0800000000000000
+      internalID: -3687243604578303115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWalkaseRight-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 31
+        width: 87
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8956dda891810310800000000000000
+      internalID: 1369518254448859531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWalkaseRight-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 32
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a824fa6cb08b910800000000000000
+      internalID: 1853244194634762822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfWalkaseRight-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 37
+        width: 87
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c62c5afbc6a631d0800000000000000
+      internalID: -3371323876031322428
       vertices: []
       indices: 
       edges: []
@@ -225,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8a0974262b879b84491d264fb1b41b15
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ElfJump-Sheet_0: 1789739821
-      ElfJump-Sheet_1: 1494102611
-      ElfJump-Sheet_2: -331680018
-      ElfJump-Sheet_3: 839781970
-      ElfJump-Sheet_4: -21413911
+      ElfWalkaseRight-Sheet_0: 1897620667148870812
+      ElfWalkaseRight-Sheet_1: 2379973708204526267
+      ElfWalkaseRight-Sheet_2: -8559147181936452940
+      ElfWalkaseRight-Sheet_3: -395939019762505043
+      ElfWalkaseRight-Sheet_4: -3687243604578303115
+      ElfWalkaseRight-Sheet_5: 1369518254448859531
+      ElfWalkaseRight-Sheet_6: 1853244194634762822
+      ElfWalkaseRight-Sheet_7: -3371323876031322428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

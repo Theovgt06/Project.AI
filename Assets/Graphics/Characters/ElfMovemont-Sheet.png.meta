@@ -236,7 +236,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -283,11 +283,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_11
+      name: Idle01
       rect:
         serializedVersion: 2
         x: 256
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -305,11 +305,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_12
+      name: Idle02
       rect:
         serializedVersion: 2
         x: 384
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -327,11 +327,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_13
+      name: Idle03
       rect:
         serializedVersion: 2
         x: 512
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -349,11 +349,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_14
+      name: Idle04
       rect:
         serializedVersion: 2
         x: 640
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -371,11 +371,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_15
+      name: Idle05
       rect:
         serializedVersion: 2
         x: 768
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -393,11 +393,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_16
+      name: Idle06
       rect:
         serializedVersion: 2
         x: 896
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -415,11 +415,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_17
+      name: Idle07
       rect:
         serializedVersion: 2
         x: 1024
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -437,11 +437,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_18
+      name: Idle08
       rect:
         serializedVersion: 2
         x: 1152
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -459,11 +459,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_19
+      name: Idle09
       rect:
         serializedVersion: 2
         x: 1280
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -481,11 +481,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_20
+      name: Idle10
       rect:
         serializedVersion: 2
         x: 1408
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -503,11 +503,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_21
+      name: Idle11
       rect:
         serializedVersion: 2
         x: 1536
-        y: 621
+        y: 1372
         width: 128
         height: 128
       alignment: 0
@@ -525,11 +525,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_30
+      name: Run01
       rect:
         serializedVersion: 2
         x: 256
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -547,11 +547,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_31
+      name: Run02
       rect:
         serializedVersion: 2
         x: 384
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -569,11 +569,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_32
+      name: Run03
       rect:
         serializedVersion: 2
         x: 512
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -591,11 +591,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_33
+      name: Run04
       rect:
         serializedVersion: 2
         x: 640
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -613,11 +613,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_34
+      name: Run05
       rect:
         serializedVersion: 2
         x: 768
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -635,11 +635,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_35
+      name: Run06
       rect:
         serializedVersion: 2
         x: 896
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -657,11 +657,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_36
+      name: Run07
       rect:
         serializedVersion: 2
         x: 1024
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -679,11 +679,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_37
+      name: Run08
       rect:
         serializedVersion: 2
         x: 1152
-        y: 365
+        y: 1116
         width: 128
         height: 128
       alignment: 0
@@ -701,11 +701,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_43
+      name: Jump01
       rect:
         serializedVersion: 2
         x: 256
-        y: 237
+        y: 860
         width: 128
         height: 128
       alignment: 0
@@ -723,11 +723,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_44
+      name: Jump02
       rect:
         serializedVersion: 2
         x: 384
-        y: 237
+        y: 860
         width: 128
         height: 128
       alignment: 0
@@ -745,11 +745,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_45
+      name: Jump03
       rect:
         serializedVersion: 2
         x: 512
-        y: 237
+        y: 860
         width: 128
         height: 128
       alignment: 0
@@ -767,11 +767,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_46
+      name: Jump04
       rect:
         serializedVersion: 2
         x: 640
-        y: 237
+        y: 860
         width: 128
         height: 128
       alignment: 0
@@ -789,11 +789,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfMovemont-Sheet_47
+      name: Jump05
       rect:
         serializedVersion: 2
         x: 768
-        y: 237
+        y: 860
         width: 128
         height: 128
       alignment: 0
@@ -806,6 +806,160 @@ TextureImporter:
       bones: []
       spriteID: 1853710f624bbc4f0800000000000000
       internalID: -807353628853062271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump06
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 860
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2ab13bf4edc6f4ea0ce70f0ace0f1a
+      internalID: 4062310447815041216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Land01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e231a83e3e65a47a273c8535369c48
+      internalID: 3727220155173897763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Land02
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ab7229fccfde34facd36c405db1bf1
+      internalID: 772934595865733580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Land03
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708ed8ba706cb104e935cfd91cec655f
+      internalID: 248989216739146667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump07
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 860
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcdc775d2296fc42b0c95cecb53bfa6
+      internalID: -2521283632941785275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Land04
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a697b569f93a32348b46c855b7535b60
+      internalID: 6513831492774397367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Land05
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 732
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3fb0b91be3d545b97323d8c145773
+      internalID: 6706629362248516138
       vertices: []
       indices: 
       edges: []
@@ -824,54 +978,55 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ElfMovemont-Sheet_0: 4062310447815041216
-      ElfMovemont-Sheet_1: 3727220155173897763
-      ElfMovemont-Sheet_10: 3999369775805764328
-      ElfMovemont-Sheet_11: 4512738929175734896
-      ElfMovemont-Sheet_12: 2117085670217231434
-      ElfMovemont-Sheet_13: 7360105807968730716
-      ElfMovemont-Sheet_14: -3654021148486226895
-      ElfMovemont-Sheet_15: 2710603240328704726
-      ElfMovemont-Sheet_16: 4231518255362714775
-      ElfMovemont-Sheet_17: -8121970790427487669
-      ElfMovemont-Sheet_18: -1648809930975080597
-      ElfMovemont-Sheet_19: 3695711969629868504
-      ElfMovemont-Sheet_2: 772934595865733580
-      ElfMovemont-Sheet_20: 1220862808515793606
-      ElfMovemont-Sheet_21: 1545924901065913685
-      ElfMovemont-Sheet_22: -950410604001394481
-      ElfMovemont-Sheet_23: 9047746335770297228
-      ElfMovemont-Sheet_24: -369349323099270751
-      ElfMovemont-Sheet_25: 2091854143966175045
-      ElfMovemont-Sheet_26: -7189694572073725332
-      ElfMovemont-Sheet_27: -7890362103270883105
-      ElfMovemont-Sheet_28: 5842633872740101096
-      ElfMovemont-Sheet_29: -3178129143482293283
-      ElfMovemont-Sheet_3: 248989216739146667
-      ElfMovemont-Sheet_30: 4105869977084698824
-      ElfMovemont-Sheet_31: 297439394355822466
-      ElfMovemont-Sheet_32: -7470722321660387524
-      ElfMovemont-Sheet_33: 1515223918527853678
-      ElfMovemont-Sheet_34: 2231966183243870597
-      ElfMovemont-Sheet_35: 4697535365681355026
-      ElfMovemont-Sheet_36: 296666136825401015
-      ElfMovemont-Sheet_37: 1952210751737085537
-      ElfMovemont-Sheet_38: -1207916082134190478
-      ElfMovemont-Sheet_39: 9032432514907062677
-      ElfMovemont-Sheet_4: -2521283632941785275
-      ElfMovemont-Sheet_40: -231776234108307526
-      ElfMovemont-Sheet_41: 3299294336507201249
-      ElfMovemont-Sheet_42: 1454476009525335595
-      ElfMovemont-Sheet_43: 972788374970057622
-      ElfMovemont-Sheet_44: 941871553740347443
-      ElfMovemont-Sheet_45: 9002327655386025863
-      ElfMovemont-Sheet_46: -5564359395868621796
-      ElfMovemont-Sheet_47: -807353628853062271
-      ElfMovemont-Sheet_5: 6513831492774397367
-      ElfMovemont-Sheet_6: 6706629362248516138
-      ElfMovemont-Sheet_7: 5303269417823728802
-      ElfMovemont-Sheet_8: 9180053767204914562
-      ElfMovemont-Sheet_9: 5078221172204300921
+      ElfMovemont-Sheet_0: -328333146
+      ElfMovemont-Sheet_10: -1568111565
+      ElfMovemont-Sheet_22: -1390669613
+      ElfMovemont-Sheet_23: 656155248
+      ElfMovemont-Sheet_24: 1034535342
+      ElfMovemont-Sheet_25: 253958792
+      ElfMovemont-Sheet_26: -1227531496
+      ElfMovemont-Sheet_27: -1978268689
+      ElfMovemont-Sheet_28: -1548076667
+      ElfMovemont-Sheet_29: -769519019
+      ElfMovemont-Sheet_38: -886224030
+      ElfMovemont-Sheet_39: -991934968
+      ElfMovemont-Sheet_40: -1805571412
+      ElfMovemont-Sheet_41: -1524502869
+      ElfMovemont-Sheet_42: 768883104
+      ElfMovemont-Sheet_7: 1056780085
+      ElfMovemont-Sheet_8: 1378390647
+      ElfMovemont-Sheet_9: 329805995
+      Idle01: 4512738929175734896
+      Idle02: 2117085670217231434
+      Idle03: 7360105807968730716
+      Idle04: -3654021148486226895
+      Idle05: 2710603240328704726
+      Idle06: 4231518255362714775
+      Idle07: -8121970790427487669
+      Idle08: -1648809930975080597
+      Idle09: 3695711969629868504
+      Idle10: 1220862808515793606
+      Idle11: 1545924901065913685
+      Jump01: 972788374970057622
+      Jump02: 941871553740347443
+      Jump03: 9002327655386025863
+      Jump04: -5564359395868621796
+      Jump05: -807353628853062271
+      Jump06: 4062310447815041216
+      Jump07: -2521283632941785275
+      Land01: 3727220155173897763
+      Land02: 772934595865733580
+      Land03: 248989216739146667
+      Land04: 6513831492774397367
+      Land05: 6706629362248516138
+      Run01: 4105869977084698824
+      Run02: 297439394355822466
+      Run03: -7470722321660387524
+      Run04: 1515223918527853678
+      Run05: 2231966183243870597
+      Run06: 4697535365681355026
+      Run07: 296666136825401015
+      Run08: 1952210751737085537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Project.AI.sln"
+    "dotnet.defaultSolution": "Project.AI.sln",
+    "editor.acceptSuggestionOnCommitCharacter": false
 }

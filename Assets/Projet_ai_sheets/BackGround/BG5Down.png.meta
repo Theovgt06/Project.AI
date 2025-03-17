@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 273083422c2b2044fa17abf1aedd14d9
+guid: 441bfeb426662ea44b265d0039ac2215
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4701557699655928981
-    second: SugarGlider_0
+      213: 7168330364428854559
+    second: BG5Down_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SugarGlider_0
+      name: BG5Down_0
       rect:
         serializedVersion: 2
-        x: 699
-        y: 499
-        width: 102
-        height: 142
+        x: 0
+        y: 0
+        width: 620
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b63710d9e26b0ceb0800000000000000
-      internalID: -4701557699655928981
+      spriteID: f15ad6cac760b7360800000000000000
+      internalID: 7168330364428854559
       vertices: []
       indices: 
       edges: []
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BG5Down_0: 7168330364428854559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

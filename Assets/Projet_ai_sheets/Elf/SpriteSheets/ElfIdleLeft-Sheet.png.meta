@@ -1,49 +1,40 @@
 fileFormatVersion: 2
-guid: 59f23ed8db52682429450d17fef3e3da
+guid: 602c96c9b47a55f4cadb7a67e92dbf16
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1698120722727670601
-    second: SugarGlider-Sheet_0
+      213: -4746896457744832751
+    second: ElfIdleLeft-Sheet_0
   - first:
-      213: 2928264837147314594
-    second: SugarGlider-Sheet_1
+      213: 437410926124547170
+    second: ElfIdleLeft-Sheet_1
   - first:
-      213: 2512835405476583919
-    second: SugarGlider-Sheet_2
+      213: 9057092185814651466
+    second: ElfIdleLeft-Sheet_2
   - first:
-      213: 408323740282178118
-    second: SugarGlider-Sheet_3
+      213: -8053502633339599135
+    second: ElfIdleLeft-Sheet_3
   - first:
-      213: -7066722941748131291
-    second: SugarGlider-Sheet_4
+      213: -5313509703015348953
+    second: ElfIdleLeft-Sheet_4
   - first:
-      213: 1807570325517233802
-    second: SugarGlider-Sheet_5
+      213: 7800589020465613956
+    second: ElfIdleLeft-Sheet_5
   - first:
-      213: -3474229058642550915
-    second: SugarGlider-Sheet_6
+      213: -5969575796751714555
+    second: ElfIdleLeft-Sheet_6
   - first:
-      213: -1323142763251758842
-    second: SugarGlider-Sheet_7
+      213: 3566380676235670543
+    second: ElfIdleLeft-Sheet_7
   - first:
-      213: 1275426043302138515
-    second: SugarGlider-Sheet_8
+      213: -5964826386453439521
+    second: ElfIdleLeft-Sheet_8
   - first:
-      213: -4261754246598613253
-    second: SugarGlider-Sheet_9
+      213: 7594027090281101331
+    second: ElfIdleLeft-Sheet_9
   - first:
-      213: 5229381399069585524
-    second: SugarGlider-Sheet_10
-  - first:
-      213: -7309361647529423760
-    second: SugarGlider-Sheet_11
-  - first:
-      213: 27662649763808963
-    second: SugarGlider-Sheet_12
-  - first:
-      213: 8103968801740474894
-    second: SugarGlider-Sheet_13
+      213: 6761729102042896500
+    second: ElfIdleLeft-Sheet_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SugarGlider-Sheet_0
+      name: ElfIdleLeft-Sheet_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 26
-        width: 12
-        height: 16
+        x: 41
+        y: 33
+        width: 70
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bc661023301f68e0800000000000000
-      internalID: -1698120722727670601
+      spriteID: 1172f8262d2af1eb0800000000000000
+      internalID: -4746896457744832751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_1
+      name: ElfIdleLeft-Sheet_1
       rect:
         serializedVersion: 2
-        x: 103
-        y: 26
-        width: 12
-        height: 13
+        x: 169
+        y: 33
+        width: 70
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a9ce62da5943a820800000000000000
-      internalID: 2928264837147314594
+      spriteID: 26c37887beef11600800000000000000
+      internalID: 437410926124547170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_2
+      name: ElfIdleLeft-Sheet_2
       rect:
         serializedVersion: 2
-        x: 172
-        y: 27
-        width: 11
-        height: 12
+        x: 297
+        y: 33
+        width: 70
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe9d47adc726fd220800000000000000
-      internalID: 2512835405476583919
+      spriteID: a42d2714b5141bd70800000000000000
+      internalID: 9057092185814651466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_3
+      name: ElfIdleLeft-Sheet_3
       rect:
         serializedVersion: 2
-        x: 241
-        y: 27
-        width: 10
-        height: 11
+        x: 425
+        y: 33
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64ac0e44748aaa500800000000000000
-      internalID: 408323740282178118
+      spriteID: 1e6ce1636063c3090800000000000000
+      internalID: -8053502633339599135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_4
+      name: ElfIdleLeft-Sheet_4
       rect:
         serializedVersion: 2
-        x: 310
-        y: 27
-        width: 10
-        height: 11
+        x: 553
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52acff2fce4fded90800000000000000
-      internalID: -7066722941748131291
+      spriteID: 725cd29c31f9246b0800000000000000
+      internalID: -5313509703015348953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_5
+      name: ElfIdleLeft-Sheet_5
       rect:
         serializedVersion: 2
-        x: 380
-        y: 27
-        width: 8
-        height: 8
+        x: 681
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8eedf652a7c51910800000000000000
-      internalID: 1807570325517233802
+      spriteID: 48c4aa38262414c60800000000000000
+      internalID: 7800589020465613956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_6
+      name: ElfIdleLeft-Sheet_6
       rect:
         serializedVersion: 2
-        x: 449
-        y: 27
-        width: 8
-        height: 6
+        x: 809
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7f5543141f09cfc0800000000000000
-      internalID: -3474229058642550915
+      spriteID: 50738d6e07ec72da0800000000000000
+      internalID: -5969575796751714555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_7
+      name: ElfIdleLeft-Sheet_7
       rect:
         serializedVersion: 2
-        x: 515
-        y: 27
-        width: 12
-        height: 7
+        x: 937
+        y: 33
+        width: 70
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6090049caa043ade0800000000000000
-      internalID: -1323142763251758842
+      spriteID: f0438dc54545e7130800000000000000
+      internalID: 3566380676235670543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_8
+      name: ElfIdleLeft-Sheet_8
       rect:
         serializedVersion: 2
-        x: 585
-        y: 27
-        width: 11
-        height: 8
+        x: 1065
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3925e489a3933b110800000000000000
-      internalID: 1275426043302138515
+      spriteID: fdbd098210ea83da0800000000000000
+      internalID: -5964826386453439521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_9
+      name: ElfIdleLeft-Sheet_9
       rect:
         serializedVersion: 2
-        x: 653
-        y: 25
-        width: 13
-        height: 11
+        x: 1193
+        y: 33
+        width: 70
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +343,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf62a7ba7153bd4c0800000000000000
-      internalID: -4261754246598613253
+      spriteID: 318f5ea5767636960800000000000000
+      internalID: 7594027090281101331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SugarGlider-Sheet_10
+      name: ElfIdleLeft-Sheet_10
       rect:
         serializedVersion: 2
-        x: 715
-        y: 23
-        width: 25
-        height: 15
+        x: 1321
+        y: 33
+        width: 70
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,74 +365,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 470f39e0dae729840800000000000000
-      internalID: 5229381399069585524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SugarGlider-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 777
-        y: 22
-        width: 37
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07c0528ee4eef8a90800000000000000
-      internalID: -7309361647529423760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SugarGlider-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 837
-        y: 19
-        width: 50
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c6c7bc8807426000800000000000000
-      internalID: 27662649763808963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SugarGlider-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 898
-        y: 15
-        width: 64
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0ac69240b4177070800000000000000
-      internalID: 8103968801740474894
+      spriteID: 47810ba0bcc76dd50800000000000000
+      internalID: 6761729102042896500
       vertices: []
       indices: 
       edges: []
@@ -459,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElfIdleLeft-Sheet_0: -4746896457744832751
+      ElfIdleLeft-Sheet_1: 437410926124547170
+      ElfIdleLeft-Sheet_10: 6761729102042896500
+      ElfIdleLeft-Sheet_2: 9057092185814651466
+      ElfIdleLeft-Sheet_3: -8053502633339599135
+      ElfIdleLeft-Sheet_4: -5313509703015348953
+      ElfIdleLeft-Sheet_5: 7800589020465613956
+      ElfIdleLeft-Sheet_6: -5969575796751714555
+      ElfIdleLeft-Sheet_7: 3566380676235670543
+      ElfIdleLeft-Sheet_8: -5964826386453439521
+      ElfIdleLeft-Sheet_9: 7594027090281101331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,40 +1,40 @@
 fileFormatVersion: 2
-guid: 58c0b7563d7ad3545a2f2ecafb199cb0
+guid: 0b251b945b617b242ad37860f24aabe1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6437683419250375348
-    second: ElfIdle-Sheet_0
+      213: 231634502265193409
+    second: ElfIdleRight-Sheet_0
   - first:
-      213: 4195651354994948248
-    second: ElfIdle-Sheet_1
+      213: -8194846826661996206
+    second: ElfIdleRight-Sheet_1
   - first:
-      213: -5975303295014818692
-    second: ElfIdle-Sheet_2
+      213: 2808957896920097115
+    second: ElfIdleRight-Sheet_2
   - first:
-      213: 2904575916036712106
-    second: ElfIdle-Sheet_3
+      213: -6454606466208523844
+    second: ElfIdleRight-Sheet_3
   - first:
-      213: 7792334665002229656
-    second: ElfIdle-Sheet_4
+      213: 7039566807471186693
+    second: ElfIdleRight-Sheet_4
   - first:
-      213: -6260038150989625284
-    second: ElfIdle-Sheet_5
+      213: -217426565259583399
+    second: ElfIdleRight-Sheet_5
   - first:
-      213: 6561116809431694505
-    second: ElfIdle-Sheet_6
+      213: 5362417610213833430
+    second: ElfIdleRight-Sheet_6
   - first:
-      213: -6694444447565223489
-    second: ElfIdle-Sheet_7
+      213: 5023259688891767829
+    second: ElfIdleRight-Sheet_7
   - first:
-      213: -7200982683835962261
-    second: ElfIdle-Sheet_8
+      213: -7257368170840531063
+    second: ElfIdleRight-Sheet_8
   - first:
-      213: -2395037118590251750
-    second: ElfIdle-Sheet_9
+      213: 4297886375755885526
+    second: ElfIdleRight-Sheet_9
   - first:
-      213: 3068141747970241308
-    second: ElfIdle-Sheet_10
+      213: -7128252912126681199
+    second: ElfIdleRight-Sheet_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,243 +130,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ElfIdle-Sheet_0
+      name: ElfIdleRight-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
+        x: 17
+        y: 33
+        width: 70
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 31fc786cdcd332d4b8b7a2e36061d5f9
-      internalID: 1756719651
+      spriteID: 1c3cd314a5ee63300800000000000000
+      internalID: 231634502265193409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_1
+      name: ElfIdleRight-Sheet_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
+        x: 145
+        y: 33
+        width: 70
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2f8907e2ecd2d024eb872f50340432d1
-      internalID: 1602311617
+      spriteID: 2591314ba3e064e80800000000000000
+      internalID: -8194846826661996206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_2
+      name: ElfIdleRight-Sheet_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
+        x: 273
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 317dc9ff8fc0b844590792eed8457e0e
-      internalID: -878434605
+      spriteID: b5163f2235c6bf620800000000000000
+      internalID: 2808957896920097115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_3
+      name: ElfIdleRight-Sheet_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
+        x: 401
+        y: 33
+        width: 70
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fc8d375ee6aaaa245ac07078f80d7e04
-      internalID: -194374093
+      spriteID: cb993b0fd91ac66a0800000000000000
+      internalID: -6454606466208523844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_4
+      name: ElfIdleRight-Sheet_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
+        x: 529
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b9038d1e03ae5d147bf8a158ad56e9c4
-      internalID: -1990953122
+      spriteID: 50363f3d6b091b160800000000000000
+      internalID: 7039566807471186693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_5
+      name: ElfIdleRight-Sheet_5
       rect:
         serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
+        x: 657
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 87fb26d9430e79948878dea22b2c5fc1
-      internalID: 612776854
+      spriteID: 95028fcd0bb8bfcf0800000000000000
+      internalID: -217426565259583399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_6
+      name: ElfIdleRight-Sheet_6
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 128
-        height: 128
+        x: 785
+        y: 33
+        width: 70
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d3b9beee844c00c41a1f6654313cf3df
-      internalID: -1312515937
+      spriteID: 6da381ab7622b6a40800000000000000
+      internalID: 5362417610213833430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_7
+      name: ElfIdleRight-Sheet_7
       rect:
         serializedVersion: 2
-        x: 896
-        y: 0
-        width: 128
-        height: 128
+        x: 912
+        y: 33
+        width: 71
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0f6bf3b47fde1c34785d0556f65d8f3a
-      internalID: -1507688445
+      spriteID: 51cdeea921436b540800000000000000
+      internalID: 5023259688891767829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_8
+      name: ElfIdleRight-Sheet_8
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 128
-        height: 128
+        x: 1041
+        y: 33
+        width: 70
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 977fd56da6db8784e8ba526ea78dd2e9
-      internalID: 2043072979
+      spriteID: 98fd2dc8916a84b90800000000000000
+      internalID: -7257368170840531063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_9
+      name: ElfIdleRight-Sheet_9
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 128
-        height: 128
+        x: 1169
+        y: 33
+        width: 70
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bcd7cde15d2b1c24c96a2e3b2ebdca74
-      internalID: 1968197012
+      spriteID: 6dbabe733e825ab30800000000000000
+      internalID: 4297886375755885526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElfIdle-Sheet_10
+      name: ElfIdleRight-Sheet_10
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 128
-        height: 128
+        x: 1297
+        y: 33
+        width: 70
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5689da1f567695945952edf8327ef247
-      internalID: -1649673650
+      spriteID: 19f9b875ebb531d90800000000000000
+      internalID: -7128252912126681199
       vertices: []
       indices: 
       edges: []
@@ -375,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9297951b31ad94e46b4bb661cc0d2899
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -385,17 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ElfIdle-Sheet_0: 1756719651
-      ElfIdle-Sheet_1: 1602311617
-      ElfIdle-Sheet_10: -1649673650
-      ElfIdle-Sheet_2: -878434605
-      ElfIdle-Sheet_3: -194374093
-      ElfIdle-Sheet_4: -1990953122
-      ElfIdle-Sheet_5: 612776854
-      ElfIdle-Sheet_6: -1312515937
-      ElfIdle-Sheet_7: -1507688445
-      ElfIdle-Sheet_8: 2043072979
-      ElfIdle-Sheet_9: 1968197012
+      ElfIdleRight-Sheet_0: 231634502265193409
+      ElfIdleRight-Sheet_1: -8194846826661996206
+      ElfIdleRight-Sheet_10: -7128252912126681199
+      ElfIdleRight-Sheet_2: 2808957896920097115
+      ElfIdleRight-Sheet_3: -6454606466208523844
+      ElfIdleRight-Sheet_4: 7039566807471186693
+      ElfIdleRight-Sheet_5: -217426565259583399
+      ElfIdleRight-Sheet_6: 5362417610213833430
+      ElfIdleRight-Sheet_7: 5023259688891767829
+      ElfIdleRight-Sheet_8: -7257368170840531063
+      ElfIdleRight-Sheet_9: 4297886375755885526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

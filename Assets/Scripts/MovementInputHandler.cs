@@ -1,4 +1,5 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,7 @@ public class MovementInputHandler : InputHandler
 
 
     private Vector2 moveInput;
+    private bool jump;
 
 
     protected override void RegisterInputActions()
@@ -18,6 +20,8 @@ public class MovementInputHandler : InputHandler
         {
             playerInput.actions["Move"].performed += OnMovePerformed;
             playerInput.actions["Move"].canceled += OnMoveCanceled;
+            playerInput.actions["Jump"].performed += OnJumpPerformed;
+            playerInput.actions["Jump"].canceled += OnJumpCanceled;
         }
         else
         {
@@ -35,7 +39,6 @@ public class MovementInputHandler : InputHandler
         }
     }
 
-    // Utilisez des noms différents pour éviter les conflits potentiels
     private void OnMovePerformed(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
@@ -55,6 +58,29 @@ public class MovementInputHandler : InputHandler
         if (playerController != null)
         {
             playerController.SetMoveDirection(moveInput);
+        }
+    }
+
+    private void OnJumpPerformed(InputAction.CallbackContext context) {
+        if (playerController != null)
+        {
+            playerController.JumpStart();
+        }
+        else
+        {
+            Debug.LogError("PlayerController non assigné dans MovementInputHandler");
+        }
+    }
+
+    private void OnJumpCanceled(InputAction.CallbackContext context)
+    {
+        if (playerController != null)
+        {
+            playerController.JumpEnd();
+        }
+        else
+        {
+            Debug.LogError("PlayerController non assigné dans MovementInputHandler");
         }
     }
 }
