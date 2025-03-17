@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float fallAcceleration = 0.5f;
     [SerializeField] private float jumpAcceleration = 0.4f;
     [SerializeField] public float verticalSpeed = 0f;
+    [SerializeField] private int fallSpeedCap = 30;
     [SerializeField] private ContactFilter2D groundContactFilter;
     public bool IsGrounded => rb.IsTouching(groundContactFilter);
 
@@ -18,11 +19,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     // [SerializeField] private GroudDetector groundTrigger;
     [SerializeField] private Animator anim;
+    [SerializeField] private GameObject attackPrefab;
 
     CharacterController h;
     private Vector2 moveDirection;
     private bool isFacingRight = true;
     private bool jumpKey = false;
+    private bool canAttack = true;
 
     private void Start()
     {
@@ -90,6 +93,7 @@ public class PlayerController : MonoBehaviour
                 else {
                     verticalSpeed -= fallAcceleration;
                 }
+                verticalSpeed = math.max(verticalSpeed, -fallSpeedCap);
 
             }
             anim.SetBool("Moving", moveDirection.x != 0);
@@ -125,5 +129,13 @@ public class PlayerController : MonoBehaviour
     {
         //increases the downward acceleration once the jump button is released to jump lower
         jumpKey = false;
+    }
+
+    internal void AttackStart() {
+        if (canAttack) {
+            canAttack = false;
+            Instantiate(attackPrefab, transform);
+            print("J'attaque! ^^");
+        }
     }
 }
