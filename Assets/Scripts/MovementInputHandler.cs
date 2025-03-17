@@ -3,15 +3,12 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
 public class MovementInputHandler : InputHandler
 {
     [SerializeField] private PlayerController playerController;
 
-
     private Vector2 moveInput;
     private bool jump;
-
 
     protected override void RegisterInputActions()
     {
@@ -20,13 +17,29 @@ public class MovementInputHandler : InputHandler
         {
             playerInput.actions["Move"].performed += OnMovePerformed;
             playerInput.actions["Move"].canceled += OnMoveCanceled;
+            
             playerInput.actions["Jump"].performed += OnJumpPerformed;
             playerInput.actions["Jump"].canceled += OnJumpCanceled;
+
+            playerInput.actions["Attack"].performed += OnAttackPerformed;
+            playerInput.actions["Attack"].canceled += OnAttackCanceled;
+
         }
         else
         {
             Debug.LogError("PlayerInput is null in MovementInputHandler");
         }
+    }
+
+    private void OnAttackCanceled(InputAction.CallbackContext context)
+    {
+
+        throw new NotImplementedException();
+    }
+
+    private void OnAttackPerformed(InputAction.CallbackContext context)
+    {
+        throw new NotImplementedException();
     }
 
     protected override void UnregisterInputActions()
@@ -36,6 +49,12 @@ public class MovementInputHandler : InputHandler
         {
             playerInput.actions["Move"].performed -= OnMovePerformed;
             playerInput.actions["Move"].canceled -= OnMoveCanceled;
+            
+            playerInput.actions["Jump"].performed -= OnJumpPerformed;
+            playerInput.actions["Jump"].canceled -= OnJumpCanceled;
+
+            playerInput.actions["Attack"].performed -= OnAttackPerformed;
+            playerInput.actions["Attack"].canceled -= OnAttackCanceled;
         }
     }
 

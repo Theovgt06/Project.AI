@@ -703,6 +703,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Debug",
+            "id": "6c6a40ec-c447-42b5-b8b2-e24b29ed13b1",
+            "actions": [
+                {
+                    "name": "Debug 1",
+                    "type": "Button",
+                    "id": "2501cf65-30d0-48dd-aa3d-a28b8c58e389",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Debug 2",
+                    "type": "Button",
+                    "id": "885b8046-4821-4bdf-a30c-86722dc2df4e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9b8def59-749c-4025-8065-29e2aaa8ec7c",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Debug 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cff1b655-a6ee-43fb-a756-5cd1bd6f89f6",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Debug 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

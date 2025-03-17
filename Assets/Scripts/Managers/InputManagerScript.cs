@@ -6,6 +6,7 @@ public class InputManagerScript : MonoBehaviour
    public static InputManagerScript Instance { get; private set; }
    // Propriété pour accéder au PlayerInput depuis d'autres systèmes
    [SerializeField] private PlayerInput playerInput;
+   [SerializeField] private PlayerInput EnvironmentInput;
 
     // Cherche automatiquement le PlayerInput s'il n'a pas encore été défini
     public PlayerInput CurrentPlayerInput
