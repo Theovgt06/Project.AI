@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 6918d24e6e54e9149899c1fa45add8e4
+=======
+guid: 33389252dfc921748a9b36f98bc3a704
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -234,12 +238,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       ElfJumpLeft-Sheet_0: -9023658653218644157
       ElfJumpLeft-Sheet_1: 5590570129347334824
       ElfJumpLeft-Sheet_2: -1523388278565828129
       ElfJumpLeft-Sheet_3: -586415461845442063
       ElfJumpLeft-Sheet_4: -5333041695002446385
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -56,6 +56,7 @@ MonoBehaviour:
   - {fileID: 7064713437105277926}
   - {fileID: 191901392396512044}
   - {fileID: 7876666627119390854}
+  otherObjectsParent: {fileID: 5629694243138200506}
 --- !u!1 &4850227607826694341
 GameObject:
   m_ObjectHideFlags: 0
