@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SkeletonBossIdle_0: -8988836764091624192
+      SkeletonBossIdle_1: 2423604108559833693
+      SkeletonBossIdle_2: -1936130382642341272
+      SkeletonBossIdle_3: 4753438723221490402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
