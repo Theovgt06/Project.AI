@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2821967457840070477}
   - component: {fileID: 1252392913547372559}
   - component: {fileID: 9179400433246501665}
-  m_Layer: 0
+  - component: {fileID: 6380859681551381910}
+  m_Layer: 6
   m_Name: Semisolid
   m_TagString: Untagged
   m_Icon: {fileID: 2800000, guid: 5f834ca7ce1b44648b212055aa188ef5, type: 3}
@@ -95,3 +96,15 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!114 &6380859681551381910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700905602889798796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bcfdaf54b52c2e4aa7fd64b610b2339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
