@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElfWalkAttack_0: -4930628859861403829
+      ElfWalkAttack_1: -2446599335984872850
+      ElfWalkAttack_2: -4159566772348848765
+      ElfWalkAttack_3: -7640299888449376021
+      ElfWalkAttack_4: -7825445013492742175
+      ElfWalkAttack_5: 9204148607324715214
+      ElfWalkAttack_6: 5210850139221335044
+      ElfWalkAttack_7: 2496862314097512097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
