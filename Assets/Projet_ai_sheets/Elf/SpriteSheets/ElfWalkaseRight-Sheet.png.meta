@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 5385e44cccd4da14a88763587d6f4cfc
+=======
+guid: ca6addc1c09ba814e91e34f341315a74
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -309,6 +313,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       ElfWalkaseRight-Sheet_0: 1897620667148870812
       ElfWalkaseRight-Sheet_1: 2379973708204526267
@@ -318,6 +323,9 @@ TextureImporter:
       ElfWalkaseRight-Sheet_5: 1369518254448859531
       ElfWalkaseRight-Sheet_6: 1853244194634762822
       ElfWalkaseRight-Sheet_7: -3371323876031322428
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
