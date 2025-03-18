@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
 guid: b0d4305f814984342a9155851355b9c0
 TextureImporter:
   internalIDToNameTable:
@@ -26,6 +27,35 @@ TextureImporter:
   - first:
       213: 2496862314097512097
     second: ElfWalkAttack_7
+========
+guid: e9667bb086a6d104697fe98c3006e8f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4043894136649656358
+    second: ElfWalkaseLeft-Sheet_0
+  - first:
+      213: -7855963876945685863
+    second: ElfWalkaseLeft-Sheet_1
+  - first:
+      213: 6010379915339233247
+    second: ElfWalkaseLeft-Sheet_2
+  - first:
+      213: -8484516548965469829
+    second: ElfWalkaseLeft-Sheet_3
+  - first:
+      213: -1197818723336864278
+    second: ElfWalkaseLeft-Sheet_4
+  - first:
+      213: -2714021156225278555
+    second: ElfWalkaseLeft-Sheet_5
+  - first:
+      213: -81454098664099139
+    second: ElfWalkaseLeft-Sheet_6
+  - first:
+      213: -9091944092606551506
+    second: ElfWalkaseLeft-Sheet_7
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,6 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_0
       rect:
         serializedVersion: 2
@@ -128,6 +159,15 @@ TextureImporter:
         y: 32
         width: 128
         height: 90
+========
+      name: ElfWalkaseLeft-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 37
+        width: 87
+        height: 51
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,13 +176,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: b47fba0fc23e29bb0800000000000000
       internalID: -4930628859861403829
+========
+      spriteID: ad756bb45b331e7c0800000000000000
+      internalID: -4043894136649656358
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_1
       rect:
         serializedVersion: 2
@@ -150,6 +196,15 @@ TextureImporter:
         y: 29
         width: 128
         height: 93
+========
+      name: ElfWalkaseLeft-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 32
+        width: 85
+        height: 56
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,13 +213,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: e624ae6dddeeb0ed0800000000000000
       internalID: -2446599335984872850
+========
+      spriteID: 9921a520a720af290800000000000000
+      internalID: -7855963876945685863
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_2
       rect:
         serializedVersion: 2
@@ -172,6 +233,15 @@ TextureImporter:
         y: 34
         width: 126
         height: 88
+========
+      name: ElfWalkaseLeft-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 31
+        width: 87
+        height: 57
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,13 +250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: 385f0a21f004646c0800000000000000
       internalID: -4159566772348848765
+========
+      spriteID: fd7ffea40b8296350800000000000000
+      internalID: 6010379915339233247
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_3
       rect:
         serializedVersion: 2
@@ -194,6 +270,15 @@ TextureImporter:
         y: 37
         width: 129
         height: 85
+========
+      name: ElfWalkaseLeft-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 32
+        width: 92
+        height: 58
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,13 +287,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: be0b4834bb338f590800000000000000
       internalID: -7640299888449376021
+========
+      spriteID: b717dffc621f04a80800000000000000
+      internalID: -8484516548965469829
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_4
       rect:
         serializedVersion: 2
@@ -216,6 +307,15 @@ TextureImporter:
         y: 32
         width: 137
         height: 90
+========
+      name: ElfWalkaseLeft-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 37
+        width: 87
+        height: 55
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,13 +324,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: 1e7c961a83f666390800000000000000
       internalID: -7825445013492742175
+========
+      spriteID: aedb13aa73e706fe0800000000000000
+      internalID: -1197818723336864278
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_5
       rect:
         serializedVersion: 2
@@ -238,6 +344,15 @@ TextureImporter:
         y: 31
         width: 124
         height: 91
+========
+      name: ElfWalkaseLeft-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 34
+        width: 84
+        height: 59
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,13 +361,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: ec8fe778464bbbf70800000000000000
       internalID: 9204148607324715214
+========
+      spriteID: 5ad1c4e432cd55ad0800000000000000
+      internalID: -2714021156225278555
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_6
       rect:
         serializedVersion: 2
@@ -260,6 +381,15 @@ TextureImporter:
         y: 32
         width: 101
         height: 90
+========
+      name: ElfWalkaseLeft-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 29
+        width: 80
+        height: 62
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,13 +398,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: 40c1516e798a05840800000000000000
       internalID: 5210850139221335044
+========
+      spriteID: db270a7cded9edef0800000000000000
+      internalID: -81454098664099139
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       name: ElfWalkAttack_7
       rect:
         serializedVersion: 2
@@ -282,6 +418,15 @@ TextureImporter:
         y: 37
         width: 100
         height: 85
+========
+      name: ElfWalkaseLeft-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 32
+        width: 86
+        height: 58
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +435,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< Updated upstream:Assets/Graphics/ElfWalkAttack.png.meta
       spriteID: 1ae87d4bb03a6a220800000000000000
       internalID: 2496862314097512097
+========
+      spriteID: e2aa97ad40de2d180800000000000000
+      internalID: -9091944092606551506
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfWalkaseLeft-Sheet.png.meta
       vertices: []
       indices: 
       edges: []

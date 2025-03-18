@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 18fb2ca91a85b364faf293d2f7efcd91
+=======
+guid: 27d105825b5aba34abcfeaf9ccdb7df2
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -1659,6 +1663,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       ElfMovemont-Sheet_0: 4062310447815041216
       ElfMovemont-Sheet_1: 3727220155173897763
@@ -1722,6 +1727,9 @@ TextureImporter:
       ElfMovemont-Sheet_7: 5303269417823728802
       ElfMovemont-Sheet_8: 9180053767204914562
       ElfMovemont-Sheet_9: 5078221172204300921
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

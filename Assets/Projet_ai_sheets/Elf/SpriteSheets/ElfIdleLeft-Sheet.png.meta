@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
 guid: 602c96c9b47a55f4cadb7a67e92dbf16
+=======
+guid: bc1f3d8ce72381347bb23f8c2b1df249
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -35,6 +40,47 @@ TextureImporter:
   - first:
       213: 6761729102042896500
     second: ElfIdleLeft-Sheet_10
+<<<<<<< Updated upstream
+========
+guid: d40d8a703d2836043a5b1de7e2c6c02b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 231634502265193409
+    second: ElfIdleRight-Sheet_0
+  - first:
+      213: -8194846826661996206
+    second: ElfIdleRight-Sheet_1
+  - first:
+      213: 2808957896920097115
+    second: ElfIdleRight-Sheet_2
+  - first:
+      213: -6454606466208523844
+    second: ElfIdleRight-Sheet_3
+  - first:
+      213: 7039566807471186693
+    second: ElfIdleRight-Sheet_4
+  - first:
+      213: -217426565259583399
+    second: ElfIdleRight-Sheet_5
+  - first:
+      213: 5362417610213833430
+    second: ElfIdleRight-Sheet_6
+  - first:
+      213: 5023259688891767829
+    second: ElfIdleRight-Sheet_7
+  - first:
+      213: -7257368170840531063
+    second: ElfIdleRight-Sheet_8
+  - first:
+      213: 4297886375755885526
+    second: ElfIdleRight-Sheet_9
+  - first:
+      213: -7128252912126681199
+    second: ElfIdleRight-Sheet_10
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+>>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -130,7 +176,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_0
+========
+      name: ElfIdleRight-Sheet_0
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_0
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 41
@@ -145,14 +199,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 1172f8262d2af1eb0800000000000000
       internalID: -4746896457744832751
+========
+      spriteID: 9ac51fb7f13a1a442bfc1e523ed6dd7a
+      internalID: 2072673427
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 1172f8262d2af1eb0800000000000000
+      internalID: -4746896457744832751
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_1
+========
+      name: ElfIdleRight-Sheet_1
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_1
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 169
@@ -167,14 +239,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 26c37887beef11600800000000000000
       internalID: 437410926124547170
+========
+      spriteID: 25fae384842c7b1478a8736d7b43a20b
+      internalID: 827256430
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 26c37887beef11600800000000000000
+      internalID: 437410926124547170
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_2
+========
+      name: ElfIdleRight-Sheet_2
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_2
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 297
@@ -189,14 +279,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: a42d2714b5141bd70800000000000000
       internalID: 9057092185814651466
+========
+      spriteID: 10d77b419db34684d82fd09cfc8b5ec3
+      internalID: 1780025466
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: a42d2714b5141bd70800000000000000
+      internalID: 9057092185814651466
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_3
+========
+      name: ElfIdleRight-Sheet_3
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_3
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 425
@@ -211,14 +319,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 1e6ce1636063c3090800000000000000
       internalID: -8053502633339599135
+========
+      spriteID: b84e6eb8ba423ef47b3627d344e2f7b0
+      internalID: 518467779
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 1e6ce1636063c3090800000000000000
+      internalID: -8053502633339599135
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_4
+========
+      name: ElfIdleRight-Sheet_4
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_4
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 553
@@ -233,14 +359,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 725cd29c31f9246b0800000000000000
       internalID: -5313509703015348953
+========
+      spriteID: aff247dcc788df54d97c688a1a240f55
+      internalID: 1144427726
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 725cd29c31f9246b0800000000000000
+      internalID: -5313509703015348953
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_5
+========
+      name: ElfIdleRight-Sheet_5
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_5
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 681
@@ -255,14 +399,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 48c4aa38262414c60800000000000000
       internalID: 7800589020465613956
+========
+      spriteID: 0ab1e0d06bc2a7746b0cd7594a5343b9
+      internalID: -1577890644
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 48c4aa38262414c60800000000000000
+      internalID: 7800589020465613956
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_6
+========
+      name: ElfIdleRight-Sheet_6
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_6
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 809
@@ -277,14 +439,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 50738d6e07ec72da0800000000000000
       internalID: -5969575796751714555
+========
+      spriteID: 15daeb0ac11fef74a928a7f07310a1d8
+      internalID: -1735145956
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 50738d6e07ec72da0800000000000000
+      internalID: -5969575796751714555
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_7
+========
+      name: ElfIdleRight-Sheet_7
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_7
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 937
@@ -299,14 +479,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: f0438dc54545e7130800000000000000
       internalID: 3566380676235670543
+========
+      spriteID: a5abbad10ec9c27418a3abace298a7d9
+      internalID: 1877632609
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: f0438dc54545e7130800000000000000
+      internalID: 3566380676235670543
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_8
+========
+      name: ElfIdleRight-Sheet_8
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_8
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 1065
@@ -321,14 +519,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: fdbd098210ea83da0800000000000000
       internalID: -5964826386453439521
+========
+      spriteID: fa6d8aafc70377d4bb4a479a501474df
+      internalID: -1794495347
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: fdbd098210ea83da0800000000000000
+      internalID: -5964826386453439521
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_9
+========
+      name: ElfIdleRight-Sheet_9
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_9
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 1193
@@ -343,14 +559,32 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 318f5ea5767636960800000000000000
       internalID: 7594027090281101331
+========
+      spriteID: d3455f1f95e38534ba13ddd91098c643
+      internalID: -1186467602
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 318f5ea5767636960800000000000000
+      internalID: 7594027090281101331
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       name: ElfIdleLeft-Sheet_10
+========
+      name: ElfIdleRight-Sheet_10
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      name: ElfIdleLeft-Sheet_10
+>>>>>>> Stashed changes
       rect:
         serializedVersion: 2
         x: 1321
@@ -365,8 +599,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       spriteID: 47810ba0bcc76dd50800000000000000
       internalID: 6761729102042896500
+========
+      spriteID: da33d0381c0463044af432e7e5f5c895
+      internalID: -1916482430
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+      spriteID: 47810ba0bcc76dd50800000000000000
+      internalID: 6761729102042896500
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -375,7 +619,15 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
     spriteID: 
+========
+    spriteID: 2bc378a7daad88c43809788dd0d366bd
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+    spriteID: 
+>>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 
@@ -384,7 +636,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
+<<<<<<<< Updated upstream:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleLeft-Sheet.png.meta
       ElfIdleLeft-Sheet_0: -4746896457744832751
       ElfIdleLeft-Sheet_1: 437410926124547170
       ElfIdleLeft-Sheet_10: 6761729102042896500
@@ -396,6 +650,22 @@ TextureImporter:
       ElfIdleLeft-Sheet_7: 3566380676235670543
       ElfIdleLeft-Sheet_8: -5964826386453439521
       ElfIdleLeft-Sheet_9: 7594027090281101331
+========
+      ElfIdleRight-Sheet_0: 2072673427
+      ElfIdleRight-Sheet_1: 827256430
+      ElfIdleRight-Sheet_10: -1916482430
+      ElfIdleRight-Sheet_2: 1780025466
+      ElfIdleRight-Sheet_3: 518467779
+      ElfIdleRight-Sheet_4: 1144427726
+      ElfIdleRight-Sheet_5: -1577890644
+      ElfIdleRight-Sheet_6: -1735145956
+      ElfIdleRight-Sheet_7: 1877632609
+      ElfIdleRight-Sheet_8: -1794495347
+      ElfIdleRight-Sheet_9: -1186467602
+>>>>>>>> Stashed changes:Assets/Projet_ai_sheets/Elf/SpriteSheets/ElfIdleRight-Sheet.png.meta
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
