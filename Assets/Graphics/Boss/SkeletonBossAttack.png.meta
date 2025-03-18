@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SkeletonBossAttack_0: -1470434029416779676
+      SkeletonBossAttack_1: 2921650352357234697
+      SkeletonBossAttack_10: 3854223650212064166
+      SkeletonBossAttack_11: -8211730413196915844
+      SkeletonBossAttack_12: -862212640131354604
+      SkeletonBossAttack_2: 5322523741745026387
+      SkeletonBossAttack_3: -6006735818231733582
+      SkeletonBossAttack_4: 5478271452172544815
+      SkeletonBossAttack_5: -8834379628301681193
+      SkeletonBossAttack_6: 7039552569778654536
+      SkeletonBossAttack_7: 8272221917319240971
+      SkeletonBossAttack_8: -6744734630831323040
+      SkeletonBossAttack_9: 5772985458599524444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
