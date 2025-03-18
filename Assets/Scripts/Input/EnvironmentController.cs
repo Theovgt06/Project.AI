@@ -21,13 +21,15 @@ public class EnvironmentController : MonoBehaviour
 
     internal void Debug2press()
     {
-        dimension.setAlpha(0, 1);
+        dimension.SetAlpha(0, 1);
+        StartCoroutine(dimension.SetCollision(false, 1));
         // throw new NotImplementedException();
     }
 
     internal void Debug2release()
     {
-        dimension.setAlpha(0.5f, 1);
+        dimension.SetAlpha(0.5f, 1);
+        StartCoroutine(dimension.SetCollision(true, 1));
         // throw new NotImplementedException();
     }
 
