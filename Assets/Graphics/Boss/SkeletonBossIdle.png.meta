@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 76480b680d881524a86b5a2981e4eada
+guid: e5e06d23943435749a2c04f7f694711b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8808687091320244980
-    second: BG3 1_0
+      213: -8988836764091624192
+    second: SkeletonBossIdle_0
   - first:
-      213: -4245538444081070014
-    second: BG3 1_1
+      213: 2423604108559833693
+    second: SkeletonBossIdle_1
+  - first:
+      213: -1936130382642341272
+    second: SkeletonBossIdle_2
+  - first:
+      213: 4753438723221490402
+    second: SkeletonBossIdle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG3 1_0
+      name: SkeletonBossIdle_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 0
-        width: 299
-        height: 360
+        x: 40
+        y: 46
+        width: 35
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c05b948c2c141c580800000000000000
-      internalID: -8808687091320244980
+      spriteID: 005d854869c314380800000000000000
+      internalID: -8988836764091624192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG3 1_1
+      name: SkeletonBossIdle_1
       rect:
         serializedVersion: 2
-        x: 341
-        y: 0
-        width: 279
-        height: 360
+        x: 168
+        y: 46
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +146,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24088486741d415c0800000000000000
-      internalID: -4245538444081070014
+      spriteID: d5ad2ee881f52a120800000000000000
+      internalID: 2423604108559833693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossIdle_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 46
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a13cfccab7125e0800000000000000
+      internalID: -1936130382642341272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonBossIdle_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 46
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea043f755b97f140800000000000000
+      internalID: 4753438723221490402
       vertices: []
       indices: 
       edges: []
@@ -159,9 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BG3 1_0: -8808687091320244980
-      BG3 1_1: -4245538444081070014
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
