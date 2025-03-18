@@ -25,8 +25,10 @@ public class DimensionManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
         foreach (Tilemap tilemap in tilemaps) {
             TilemapCollider2D collider = tilemap.GetComponent<TilemapCollider2D>();
-            collider.enabled = active;
-        } 
-        throw new NotImplementedException();
+            if (collider != null) {
+                collider.enabled = active;
+                print(collider.name + active);
+            }
+        }
     }
 }
