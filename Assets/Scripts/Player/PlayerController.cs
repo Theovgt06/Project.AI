@@ -6,20 +6,21 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("Mouvement")]
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float initialJumpSpeed = 20f;
-    [SerializeField] private float fallAcceleration = 0.5f;
+    [SerializeField] private float fallAcceleration = 0.8f;
     [SerializeField] private float jumpAcceleration = 0.4f;
     [SerializeField] public float verticalSpeed = 0f;
-    [SerializeField] private int fallSpeedCap = 30;
+    [SerializeField] private float fallSpeedCap = 30f;
     [SerializeField] private ContactFilter2D groundContactFilter;
     public bool IsGrounded => rb.IsTouching(groundContactFilter);
 
     [Header("Références")]
-    [SerializeField] private Rigidbody2D rb;
-    // [SerializeField] private GroudDetector groundTrigger;
-    [SerializeField] private Animator anim;
     [SerializeField] private GameObject attackPrefab;
+    
+    
+    private Rigidbody2D rb;
+    private Animator anim;
 
     CharacterController h;
     private Vector2 moveDirection;
@@ -29,6 +30,9 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+
         // Récupérer le PlayerInput et l'enregistrer auprès de l'InputManager
         PlayerInput playerInput = GetComponent<PlayerInput>();
         if (playerInput != null)

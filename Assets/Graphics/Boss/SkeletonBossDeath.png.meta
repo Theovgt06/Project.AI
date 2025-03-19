@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,10 +151,10 @@ TextureImporter:
       name: SkeletonBossDeath_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 46
-        width: 34
-        height: 36
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: SkeletonBossDeath_1
       rect:
         serializedVersion: 2
-        x: 168
-        y: 46
-        width: 34
-        height: 35
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: SkeletonBossDeath_2
       rect:
         serializedVersion: 2
-        x: 296
-        y: 46
-        width: 33
-        height: 34
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: SkeletonBossDeath_3
       rect:
         serializedVersion: 2
-        x: 424
-        y: 46
-        width: 37
-        height: 31
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: SkeletonBossDeath_4
       rect:
         serializedVersion: 2
-        x: 564
-        y: 47
-        width: 27
-        height: 31
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: SkeletonBossDeath_5
       rect:
         serializedVersion: 2
-        x: 680
-        y: 46
-        width: 40
-        height: 33
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: SkeletonBossDeath_6
       rect:
         serializedVersion: 2
-        x: 712
-        y: 70
-        width: 6
-        height: 6
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: SkeletonBossDeath_7
       rect:
         serializedVersion: 2
-        x: 830
-        y: 64
-        width: 15
-        height: 17
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: SkeletonBossDeath_8
       rect:
         serializedVersion: 2
-        x: 958
-        y: 67
-        width: 14
-        height: 15
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: SkeletonBossDeath_9
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 46
-        width: 44
-        height: 36
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: SkeletonBossDeath_10
       rect:
         serializedVersion: 2
-        x: 1192
-        y: 46
-        width: 44
-        height: 36
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: SkeletonBossDeath_11
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 46
-        width: 44
-        height: 35
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: SkeletonBossDeath_12
       rect:
         serializedVersion: 2
-        x: 1448
-        y: 46
-        width: 44
-        height: 33
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,99 +433,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: SkeletonBossDeath_13
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 46
-        width: 20
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 743f3660a6d31d860800000000000000
-      internalID: 7552885575660073799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SkeletonBossDeath_14
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 46
-        width: 44
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 440d06393362ba240800000000000000
-      internalID: 4803975430478549060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SkeletonBossDeath_15
-      rect:
-        serializedVersion: 2
-        x: 936
-        y: 46
-        width: 44
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87300e59cef0fe610800000000000000
-      internalID: 1652557097069446008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SkeletonBossDeath_16
-      rect:
-        serializedVersion: 2
-        x: 1576
-        y: 46
-        width: 44
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d07d08559c3c3730800000000000000
-      internalID: 3980122782813745367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e1568c52f409f994196295c89c433000
     internalID: 0
     vertices: []
     indices: 
@@ -540,10 +452,6 @@ TextureImporter:
       SkeletonBossDeath_10: -8528133057849176834
       SkeletonBossDeath_11: -8658283432189876447
       SkeletonBossDeath_12: 5935815825064269811
-      SkeletonBossDeath_13: 7552885575660073799
-      SkeletonBossDeath_14: 4803975430478549060
-      SkeletonBossDeath_15: 1652557097069446008
-      SkeletonBossDeath_16: 3980122782813745367
       SkeletonBossDeath_2: -435036345380666767
       SkeletonBossDeath_3: 7942158840118000186
       SkeletonBossDeath_4: 360421766874295656
