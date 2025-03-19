@@ -18,11 +18,9 @@ public class PlayerController : MonoBehaviour
     [Header("Références")]
     [SerializeField] private GameObject attackPrefab;
     
-    
+
     private Rigidbody2D rb;
     private Animator anim;
-
-    CharacterController h;
     private Vector2 moveDirection;
     private bool isFacingRight = true;
     private bool jumpKey = false;

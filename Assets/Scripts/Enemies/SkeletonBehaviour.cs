@@ -1,3 +1,4 @@
+using Unity.Hierarchy;
 using UnityEngine;
 
 public class SkeletonBehaviour : MonoBehaviour
@@ -7,15 +8,15 @@ public class SkeletonBehaviour : MonoBehaviour
     [SerializeField] private Vector3 target;
     [SerializeField] private bool targetIsPlayer = false;
 
-    [Header("Références")]
-    [SerializeField] private BoxCollider2D visionArea;
+    public Vector3 initialTarget = new Vector3(2,0,0);
+    private BoxCollider2D visionArea;
     void Start()
     {
+        visionArea = transform.GetChild(0).GetComponent<BoxCollider2D>();
+
+        target = transform.position + initialTarget;
         if (facingRight) {
-            target = transform.position + new Vector3(2,0,0);
-        }
-        else {
-            target = transform.position + new Vector3(2,0,0);
+            Flip();
         }
     }
 
