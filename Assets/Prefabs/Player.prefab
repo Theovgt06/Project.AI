@@ -9,13 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8780456937689420474}
-  - component: {fileID: 8901609732057486500}
   - component: {fileID: 6737341896296828926}
   - component: {fileID: 6863128568422773515}
   - component: {fileID: 3649808777134668510}
   - component: {fileID: 6689319551105723310}
-  - component: {fileID: 5734316774189259773}
   - component: {fileID: 4679145419626421903}
+  - component: {fileID: 53957490252991623}
+  - component: {fileID: 2127733471987682859}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -34,45 +34,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8901609732057486500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8001308816150584439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f669e82041b14b4e88d1f6c6c1a5405, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 9
-  initialJumpSpeed: 18
-  fallAcceleration: 1.2
-  jumpAcceleration: 0.8
-  verticalSpeed: 0
-  fallSpeedCap: 30
-  groundContactFilter:
-    useTriggers: 0
-    useLayerMask: 1
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 1
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 72
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 65
-    maxNormalAngle: 115
-  rb: {fileID: 6863128568422773515}
-  anim: {fileID: 6689319551105723310}
-  attackPrefab: {fileID: 0}
 --- !u!212 &6737341896296828926
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -189,7 +154,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.025001526, y: -0.042232335}
+  m_Offset: {x: 0.025001526, y: 0.24}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -199,7 +164,7 @@ BoxCollider2D:
     drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8374786, y: 1.9281975}
+  m_Size: {x: 2.12, y: 1.9281975}
   m_EdgeRadius: 0
 --- !u!95 &6689319551105723310
 Animator:
@@ -223,7 +188,55 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5734316774189259773
+--- !u!114 &4679145419626421903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001308816150584439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22547a11e04288f43b96cc0fd4540345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 53957490252991623}
+--- !u!114 &53957490252991623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001308816150584439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f669e82041b14b4e88d1f6c6c1a5405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 7
+  initialJumpSpeed: 20
+  fallAcceleration: 0.8
+  jumpAcceleration: 0.4
+  verticalSpeed: 0
+  fallSpeedCap: 30
+  groundContactFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  rb: {fileID: 6863128568422773515}
+  anim: {fileID: 6689319551105723310}
+  attackPrefab: {fileID: 0}
+--- !u!114 &2127733471987682859
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,20 +262,7 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &4679145419626421903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8001308816150584439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22547a11e04288f43b96cc0fd4540345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 8901609732057486500}
