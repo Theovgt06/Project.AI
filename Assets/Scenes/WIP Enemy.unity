@@ -228,6 +228,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2224953591812301849, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
+      propertyPath: lifeBar
+      value: 
+      objectReference: {fileID: 2036898059}
     - target: {fileID: 8001308816150584439, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
       propertyPath: m_Name
       value: Player
@@ -539,6 +543,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b65cb7c5e66fe864cb67238fcb2724de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2036898059 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3808790795598539464, guid: 1e079e20bce0b334b9cfc4dee1a51af8, type: 3}
+  m_PrefabInstance: {fileID: 5186768}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2182115249238742bbb477f92edc722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2078126678
