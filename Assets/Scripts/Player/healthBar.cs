@@ -42,12 +42,12 @@ public class HealthBar : MonoBehaviour
         {
             currentHealth = 0; // S'assurer que la santé ne soit pas négative
         }
-        healthBar.value = currentHealth; // Mettre à jour la barre de vie
+        UpdateHealthUI(); // Mettre à jour l'UI des points de vie
     }
 
     // Update est appelé une fois par frame
     void Update()
     {
-        LifeUpdate();
+      
     }
 }
