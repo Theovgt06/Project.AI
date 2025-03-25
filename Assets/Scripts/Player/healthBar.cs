@@ -7,7 +7,7 @@ public class HealthBar : MonoBehaviour
     public int currentHealth; // Santé actuelle du joueur
     public Image[] healthPoints; // Références aux images des points de vie
 
-    // Start est appelé une fois avant la première exécution de Update après la création du MonoBehaviour
+  
     void Start()
     {
         currentHealth = maxHealth; // Initialiser la santé actuelle à la santé maximale
@@ -25,24 +25,24 @@ public class HealthBar : MonoBehaviour
         {
             if (i < currentHealth)
             {
-                healthPoints[i].enabled = true; // Activer l'image du point de vie
+                healthPoints[i].enabled = true; // Activer l'image des life points
             }
             else
             {
-                healthPoints[i].enabled = false; // Désactiver l'image du point de vie
+                healthPoints[i].enabled = false; // Désactiver l'image des life points
             }
         }
     }
 
-    // Méthode pour infliger des dégâts au joueur
+    
     public void TakeDamage(int damage)
     {
         currentHealth -= damage; // Réduire la santé actuelle
         if (currentHealth < 0)
         {
-            currentHealth = 0; // S'assurer que la santé ne soit pas négative
+            currentHealth = 0; // pour que la santé soit pas négative
         }
-        UpdateHealthUI(); // Mettre à jour l'UI des points de vie
+        UpdateHealthUI(); // Mettre à jour l'UI des life points
     }
 
     // Update est appelé une fois par frame
