@@ -11,8 +11,6 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth; // Initialiser la santé actuelle à la santé maximale
-        healthBar.maxValue = maxHealth; // Initialiser la valeur maximale de la barre de vie
-        healthBar.value = currentHealth; // Initialiser la valeur actuelle de la barre de vie
         InitializeLife();
     }
 
