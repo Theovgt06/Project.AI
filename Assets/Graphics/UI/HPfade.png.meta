@@ -81,7 +81,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -212,52 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 016e42a4d0e1b264ab47a52ce6ec63c0
-      internalID: -387696439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HPfade_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17a3f6cfbc56e62458f7d0ae0c51e862
-      internalID: -1753862401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HPfade_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0c206340c522534ebcf8041ddc03740
-      internalID: -2090623587
+      spriteID: 46f29e964fc6ab400800000000000000
+      internalID: 340704518824603492
       vertices: []
       indices: 
       edges: []
@@ -266,7 +222,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c36acd301db341044b018a02638c7326
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -280,9 +236,7 @@ TextureImporter:
       HPfade_1: 5899893813964965386
       HPfade_2: 3251305570576044217
       HPfade_3: 4632638177781680653
-      HPfade_4: -387696439
-      HPfade_5: -1753862401
-      HPfade_6: -2090623587
+      HPfade_4: 340704518824603492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
