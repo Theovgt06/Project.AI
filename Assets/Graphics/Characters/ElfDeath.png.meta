@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: f8300d0c2e758b24098e5a0ce4e7c1c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2660500123904391026
+    second: ElfDeath_0
+  - first:
+      213: -1099730420676445352
+    second: ElfDeath_1
+  - first:
+      213: -7169403742016767457
+    second: ElfDeath_2
+  - first:
+      213: -6624418407782559102
+    second: ElfDeath_3
+  - first:
+      213: 4152276014772333479
+    second: ElfDeath_4
+  - first:
+      213: -4966556598156912232
+    second: ElfDeath_5
+  - first:
+      213: 1735155944301083819
+    second: ElfDeath_6
+  - first:
+      213: 8965392536510621397
+    second: ElfDeath_7
+  - first:
+      213: -2916246175916308766
+    second: ElfDeath_8
+  - first:
+      213: -6459215657185686237
+    second: ElfDeath_9
+  - first:
+      213: 7556869834323869620
+    second: ElfDeath_10
+  - first:
+      213: -3254050575427284765
+    second: ElfDeath_11
+  - first:
+      213: -3016063377973281255
+    second: ElfDeath_12
+  - first:
+      213: -3972593233529188553
+    second: ElfDeath_13
+  - first:
+      213: 3204288713762797645
+    second: ElfDeath_14
+  - first:
+      213: -7758290262763981159
+    second: ElfDeath_15
+  - first:
+      213: -7899750319979683051
+    second: ElfDeath_16
+  - first:
+      213: -7650534319348077505
+    second: ElfDeath_17
+  - first:
+      213: 7433052428097721719
+    second: ElfDeath_18
+  - first:
+      213: -4532959432184650679
+    second: ElfDeath_19
+  - first:
+      213: 1583520712895881245
+    second: ElfDeath_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElfDeath_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88cbc5bb31041bd0800000000000000
+      internalID: -2660500123904391026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 32
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bb3ee4209fcb0f0800000000000000
+      internalID: -1099730420676445352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 27
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1afbb12849218c90800000000000000
+      internalID: -7169403742016767457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 90
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282df884e865114a0800000000000000
+      internalID: -6624418407782559102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 33
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab21e52909df9930800000000000000
+      internalID: 4152276014772333479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 31
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8991cf1861f331bb0800000000000000
+      internalID: -4966556598156912232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_6
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 29
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac39f95323841810800000000000000
+      internalID: 1735155944301083819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 40
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d667a2e2097b6c70800000000000000
+      internalID: 8965392536510621397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_8
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 42
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6caeecd896787d0800000000000000
+      internalID: -2916246175916308766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_9
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 54
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d4ec905914c56a0800000000000000
+      internalID: -6459215657185686237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_10
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 61
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf3db883156fd860800000000000000
+      internalID: 7556869834323869620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_11
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 64
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0508a0e3a47d2d0800000000000000
+      internalID: -3254050575427284765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 92
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e76d7665ac426d0800000000000000
+      internalID: -3016063377973281255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_13
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 63
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f4f5670838ed8c0800000000000000
+      internalID: -3972593233529188553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_14
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 65
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48ff9dab9be77c20800000000000000
+      internalID: 3204288713762797645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_15
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 56
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996b4977c14055490800000000000000
+      internalID: -7758290262763981159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_16
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 53
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513255b40f27e5290800000000000000
+      internalID: -7899750319979683051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_17
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 44
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ca2512297d3d590800000000000000
+      internalID: -7650534319348077505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_18
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 45
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759e952dc1872760800000000000000
+      internalID: 7433052428097721719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_19
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 37
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944a06fb961b711c0800000000000000
+      internalID: -4532959432184650679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElfDeath_20
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 32
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10e1a2d2bbc9f510800000000000000
+      internalID: 1583520712895881245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
