@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HPfade_0: 868690326591331451
+      HPfade_1: 5899893813964965386
+      HPfade_2: 3251305570576044217
+      HPfade_3: 4632638177781680653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

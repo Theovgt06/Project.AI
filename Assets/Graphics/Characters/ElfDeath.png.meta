@@ -634,7 +634,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ElfDeath_0: -2660500123904391026
+      ElfDeath_1: -1099730420676445352
+      ElfDeath_10: 7556869834323869620
+      ElfDeath_11: -3254050575427284765
+      ElfDeath_12: -3016063377973281255
+      ElfDeath_13: -3972593233529188553
+      ElfDeath_14: 3204288713762797645
+      ElfDeath_15: -7758290262763981159
+      ElfDeath_16: -7899750319979683051
+      ElfDeath_17: -7650534319348077505
+      ElfDeath_18: 7433052428097721719
+      ElfDeath_19: -4532959432184650679
+      ElfDeath_2: -7169403742016767457
+      ElfDeath_20: 1583520712895881245
+      ElfDeath_3: -6624418407782559102
+      ElfDeath_4: 4152276014772333479
+      ElfDeath_5: -4966556598156912232
+      ElfDeath_6: 1735155944301083819
+      ElfDeath_7: 8965392536510621397
+      ElfDeath_8: -2916246175916308766
+      ElfDeath_9: -6459215657185686237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
