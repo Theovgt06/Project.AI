@@ -212,8 +212,79 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: 46f29e964fc6ab400800000000000000
       internalID: 340704518824603492
+=======
+      spriteID: 2162ff93e1a0d63418901b6a8ea7bb32
+      internalID: -3141175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPfade_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f548237bc16664f4ebbc1f61f2d3eee0
+      internalID: 603645878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPfade_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9ddf46382904949bf7299f4e2a9f84
+      internalID: 1846437559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HPfade_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc6716d6f1b63846a8876e84cfe1179
+      internalID: 703546008
+>>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -222,7 +293,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3ed3b9e78fc02c444bf173c4fd5b0cf9
     internalID: 0
     vertices: []
     indices: 
@@ -236,7 +307,14 @@ TextureImporter:
       HPfade_1: 5899893813964965386
       HPfade_2: 3251305570576044217
       HPfade_3: 4632638177781680653
+<<<<<<< Updated upstream
       HPfade_4: 340704518824603492
+=======
+      HPfade_4: -3141175
+      HPfade_5: 603645878
+      HPfade_6: 1846437559
+      HPfade_7: 703546008
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
