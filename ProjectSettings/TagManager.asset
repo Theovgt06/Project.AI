@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Enemy
   - Hazards
+  - Spike
   layers:
   - Default
   - TransparentFX

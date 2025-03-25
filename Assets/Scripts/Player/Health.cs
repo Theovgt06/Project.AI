@@ -3,24 +3,27 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    private const int MAX_HEALTH = 5; // Sant� maximale du joueur
-    public int currentHealth; // Sant� actuelle du joueur
-    public LifeBar lifeBar; // R�f�rence � la barre de vie (UI)
+    private const int MAX_HEALTH = 5; // Maximum health of the player
+    public int currentHealth; // Current health of the player
+    public LifeBar lifeBar; // Reference to the life bar (UI)
+    private Animator animator; // Reference to the Animator component
 
     private void Start()
     {
         currentHealth = MAX_HEALTH;
+        animator = GetComponent<Animator>(); // Get the Animator component
     }
 
-    // M�thode pour infliger des d�g�ts au joueur
+    // Method to inflict damage to the player
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage; // R�duire la sant� actuelle
+        currentHealth -= damage; // Reduce current health
         if (currentHealth < 0)
         {
-            currentHealth = 0; // S'assurer que la sant� ne soit pas n�gative
+            currentHealth = 0; // Ensure health does not go negative
         }
-        lifeBar.UpdateHealth(currentHealth); // Mettre � jour la barre de vie
+        lifeBar.UpdateHealth(currentHealth); // Update the life bar
+        animator.SetTrigger("Elf_hit"); // Trigger the Elf_hit animation
     }
 
     void OnCollisionEnter2D(Collision2D collision)
