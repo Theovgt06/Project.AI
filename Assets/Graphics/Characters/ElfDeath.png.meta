@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,7 +111,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -163,10 +163,10 @@ TextureImporter:
       name: ElfDeath_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 32
-        width: 72
-        height: 77
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +185,10 @@ TextureImporter:
       name: ElfDeath_1
       rect:
         serializedVersion: 2
-        x: 145
-        y: 32
-        width: 70
-        height: 70
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: ElfDeath_2
       rect:
         serializedVersion: 2
-        x: 270
-        y: 27
-        width: 74
-        height: 67
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: ElfDeath_3
       rect:
         serializedVersion: 2
-        x: 315
-        y: 90
-        width: 18
-        height: 9
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: ElfDeath_4
       rect:
         serializedVersion: 2
-        x: 398
-        y: 33
-        width: 72
-        height: 64
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: ElfDeath_5
       rect:
         serializedVersion: 2
-        x: 522
-        y: 31
-        width: 66
-        height: 66
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: ElfDeath_6
       rect:
         serializedVersion: 2
-        x: 642
-        y: 29
-        width: 56
-        height: 69
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,10 +317,10 @@ TextureImporter:
       name: ElfDeath_7
       rect:
         serializedVersion: 2
-        x: 770
-        y: 40
-        width: 46
-        height: 72
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: ElfDeath_8
       rect:
         serializedVersion: 2
-        x: 898
-        y: 42
-        width: 38
-        height: 70
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: ElfDeath_9
       rect:
         serializedVersion: 2
-        x: 1025
-        y: 54
-        width: 36
-        height: 51
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,10 +383,10 @@ TextureImporter:
       name: ElfDeath_10
       rect:
         serializedVersion: 2
-        x: 1154
-        y: 61
-        width: 34
-        height: 48
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +405,10 @@ TextureImporter:
       name: ElfDeath_11
       rect:
         serializedVersion: 2
-        x: 1281
-        y: 64
-        width: 26
-        height: 29
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,10 +427,10 @@ TextureImporter:
       name: ElfDeath_12
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 92
-        width: 7
-        height: 10
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,10 +449,10 @@ TextureImporter:
       name: ElfDeath_13
       rect:
         serializedVersion: 2
-        x: 1416
-        y: 63
-        width: 29
-        height: 26
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -471,10 +471,10 @@ TextureImporter:
       name: ElfDeath_14
       rect:
         serializedVersion: 2
-        x: 1552
-        y: 65
-        width: 29
-        height: 14
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,10 +493,10 @@ TextureImporter:
       name: ElfDeath_15
       rect:
         serializedVersion: 2
-        x: 1674
-        y: 56
-        width: 21
-        height: 9
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,10 +515,10 @@ TextureImporter:
       name: ElfDeath_16
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 53
-        width: 17
-        height: 15
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,10 +537,10 @@ TextureImporter:
       name: ElfDeath_17
       rect:
         serializedVersion: 2
-        x: 1936
-        y: 44
-        width: 17
-        height: 10
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,64 +559,20 @@ TextureImporter:
       name: ElfDeath_18
       rect:
         serializedVersion: 2
-        x: 2073
-        y: 45
-        width: 18
-        height: 12
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7759e952dc1872760800000000000000
-      internalID: 7433052428097721719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElfDeath_19
-      rect:
-        serializedVersion: 2
-        x: 2190
-        y: 37
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 944a06fb961b711c0800000000000000
-      internalID: -4532959432184650679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElfDeath_20
-      rect:
-        serializedVersion: 2
-        x: 2307
-        y: 32
-        width: 17
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d10e1a2d2bbc9f510800000000000000
-      internalID: 1583520712895881245
+      spriteID: c25770c0a4dfe20499a9a8687dac9b76
+      internalID: -526034580
       vertices: []
       indices: 
       edges: []
@@ -625,7 +581,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: aa15b35f9a68ead47b7f3fda11780fa7
     internalID: 0
     vertices: []
     indices: 
@@ -645,10 +601,8 @@ TextureImporter:
       ElfDeath_15: -7758290262763981159
       ElfDeath_16: -7899750319979683051
       ElfDeath_17: -7650534319348077505
-      ElfDeath_18: 7433052428097721719
-      ElfDeath_19: -4532959432184650679
+      ElfDeath_18: -526034580
       ElfDeath_2: -7169403742016767457
-      ElfDeath_20: 1583520712895881245
       ElfDeath_3: -6624418407782559102
       ElfDeath_4: 4152276014772333479
       ElfDeath_5: -4966556598156912232
