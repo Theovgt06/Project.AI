@@ -3037,6 +3037,7 @@ GameObject:
   - component: {fileID: 973534863}
   - component: {fileID: 973534862}
   - component: {fileID: 973534865}
+  - component: {fileID: 973534866}
   m_Layer: 3
   m_Name: Spikes_0
   m_TagString: Spike
@@ -3266,6 +3267,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2302275, y: 0.038889267}
   m_EdgeRadius: 0
+--- !u!114 &973534866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973534858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7222e91c2003214db1ff7d522163ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1531839432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,6 +3492,10 @@ PrefabInstance:
       propertyPath: lifeBar
       value: 
       objectReference: {fileID: 626766977}
+    - target: {fileID: 2589849956357356796, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
+      propertyPath: currentHealth
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8001308816150584439, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
       propertyPath: m_Name
       value: Player (1)
