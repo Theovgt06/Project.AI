@@ -3484,6 +3484,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 53957490252991623, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
+      propertyPath: attackPrefab
+      value: 
+      objectReference: {fileID: 1531839432}
     - target: {fileID: 2589849956357356796, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
       propertyPath: lifeBar
       value: 

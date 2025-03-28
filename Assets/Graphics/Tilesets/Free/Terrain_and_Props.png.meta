@@ -815,17 +815,17 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline:
-      - - {x: -8, y: -7}
+      - - {x: -8, y: -5}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
         - {x: 6, y: 8}
       physicsShape:
-      - - {x: -8, y: -8}
-        - {x: 8, y: -8}
+      - - {x: -8, y: -6}
+        - {x: -8, y: -8}
         - {x: 8, y: -8}
         - {x: 8, y: 8}
-        - {x: 8, y: 8}
+        - {x: 7, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 670aae6e70a9f7b40adb4c5befdc11c3
