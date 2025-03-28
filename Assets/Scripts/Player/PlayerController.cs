@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,7 +18,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Références")]
     [SerializeField] private GameObject attackPrefab;
-    
+    [SerializeField] private float attackDuration = 1f; // Duration of the attack animation
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -78,21 +79,26 @@ public class PlayerController : MonoBehaviour
         if (rb)
         {
             // print(IsGrounded);
-            if (IsGrounded) {
+            if (IsGrounded)
+            {
                 // verticalSpeed = math.max(0, verticalSpeed);
-                if (verticalSpeed < 0) {
+                if (verticalSpeed < 0)
+                {
                     verticalSpeed = 0;
                     // print("test");
                     anim.SetTrigger("Landing");
                     anim.SetBool("Airborne", false);
                 }
             }
-            else {
+            else
+            {
                 anim.SetBool("Airborne", true);
-                if (jumpKey) {
+                if (jumpKey)
+                {
                     verticalSpeed -= jumpAcceleration;
                 }
-                else {
+                else
+                {
                     verticalSpeed -= fallAcceleration;
                 }
                 verticalSpeed = math.max(verticalSpeed, -fallSpeedCap);
@@ -120,7 +126,8 @@ public class PlayerController : MonoBehaviour
 
     internal void JumpStart()
     {
-        if (IsGrounded) {
+        if (IsGrounded)
+        {
             jumpKey = true;
             verticalSpeed = initialJumpSpeed;
             anim.SetTrigger("Jumping");
@@ -133,11 +140,31 @@ public class PlayerController : MonoBehaviour
         jumpKey = false;
     }
 
-    internal void AttackStart() {
-        if (canAttack) {
-            canAttack = false;
-            Instantiate(attackPrefab, transform);
-            print("J'attaque! ^^");
+    internal void AttackStart()
+    {
+        if (canAttack)
+        {
+            if (attackPrefab != null)
+            {
+                canAttack = false;
+                Instantiate(attackPrefab, transform);
+                anim.SetTrigger("Attack"); // Trigger the attack animation
+                anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
+                print("J'attaque! ^^");
+                StartCoroutine(ResetOverrideAfterAnimation(attackDuration));
+            }
+            else
+            {
+                Debug.LogError("attackPrefab is not assigned in PlayerController");
+            }
         }
+    }
+
+    private IEnumerator ResetOverrideAfterAnimation(float duration)
+    {
+        // Wait for the attack animation to finish
+        yield return new WaitForSeconds(duration);
+        anim.SetBool("OVERRIDE", false); // Set OVERRIDE to false
+        canAttack = true; // Allow attacking again
     }
 }

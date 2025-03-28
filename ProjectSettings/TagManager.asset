@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Hazards
   - Spike
+  - LAMORKITU
   layers:
   - Default
   - TransparentFX
