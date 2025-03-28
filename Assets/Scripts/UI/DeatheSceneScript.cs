@@ -8,7 +8,8 @@ public class DeathSceneScript : MonoBehaviour
     private void Start()
     {
         // Ensure the image is fullscreen
-        RectTransform rectTransform = deathImage.GetComponent<RectTransform>();
+        RectTransform deathImageRectTransform = deathImage.GetComponent<RectTransform>();
+        RectTransform rectTransform = deathImageRectTransform;
         rectTransform.anchorMin = new Vector2(0, 0);
         rectTransform.anchorMax = new Vector2(1920, 1080);
         rectTransform.offsetMin = Vector2.zero;
