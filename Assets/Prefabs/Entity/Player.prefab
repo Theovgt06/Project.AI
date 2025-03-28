@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 6863128568422773515}
   - component: {fileID: 3649808777134668510}
   - component: {fileID: 6689319551105723310}
+  - component: {fileID: 2127733471987682859}
   - component: {fileID: 4679145419626421903}
   - component: {fileID: 53957490252991623}
-  - component: {fileID: 2127733471987682859}
-  - component: {fileID: 2224953591812301849}
+  - component: {fileID: 6786836526331181023}
+  - component: {fileID: 8395129798857845752}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -155,7 +156,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.025001526, y: 0.24}
+  m_Offset: {x: -0.14, y: -0.05}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -189,52 +190,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4679145419626421903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8001308816150584439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22547a11e04288f43b96cc0fd4540345, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerController: {fileID: 53957490252991623}
---- !u!114 &53957490252991623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8001308816150584439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f669e82041b14b4e88d1f6c6c1a5405, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 7
-  initialJumpSpeed: 20
-  fallAcceleration: 0.8
-  jumpAcceleration: 0.4
-  verticalSpeed: 0
-  fallSpeedCap: 30
-  groundContactFilter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  attackPrefab: {fileID: 0}
 --- !u!114 &2127733471987682859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +220,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &2224953591812301849
+--- !u!114 &4679145419626421903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,9 +229,93 @@ MonoBehaviour:
   m_GameObject: {fileID: 8001308816150584439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2088c2914021bec448da49e7e32882e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 22547a11e04288f43b96cc0fd4540345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  playerController: {fileID: 53957490252991623}
+--- !u!114 &53957490252991623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001308816150584439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f669e82041b14b4e88d1f6c6c1a5405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 7
+  initialJumpSpeed: 14
+  fallAcceleration: 0.8
+  jumpAcceleration: 0.4
+  verticalSpeed: 0
+  fallSpeedCap: 30
+  groundContactFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 1
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 85
+    maxNormalAngle: 95
+  attackPrefab: {fileID: 0}
+--- !u!70 &6786836526331181023
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001308816150584439}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.1626178, y: 0.07305288}
+  m_Size: {x: 1.7303855, y: 2.2603345}
+  m_Direction: 0
+--- !u!114 &8395129798857845752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8001308816150584439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafd819cf85e0e945bc703bf0b8a5308, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   currentHealth: 0
   lifeBar: {fileID: 0}
+  invulnerability: 0
+  invulnerabilityTime: 1
