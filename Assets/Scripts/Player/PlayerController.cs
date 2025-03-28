@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
 
     [Header("Références")]
     [SerializeField] private GameObject attackPrefab;
-    
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -78,21 +77,26 @@ public class PlayerController : MonoBehaviour
         if (rb)
         {
             // print(IsGrounded);
-            if (IsGrounded) {
+            if (IsGrounded)
+            {
                 // verticalSpeed = math.max(0, verticalSpeed);
-                if (verticalSpeed < 0) {
+                if (verticalSpeed < 0)
+                {
                     verticalSpeed = 0;
                     // print("test");
                     anim.SetTrigger("Landing");
                     anim.SetBool("Airborne", false);
                 }
             }
-            else {
+            else
+            {
                 anim.SetBool("Airborne", true);
-                if (jumpKey) {
+                if (jumpKey)
+                {
                     verticalSpeed -= jumpAcceleration;
                 }
-                else {
+                else
+                {
                     verticalSpeed -= fallAcceleration;
                 }
                 verticalSpeed = math.max(verticalSpeed, -fallSpeedCap);
@@ -120,7 +124,8 @@ public class PlayerController : MonoBehaviour
 
     internal void JumpStart()
     {
-        if (IsGrounded) {
+        if (IsGrounded)
+        {
             jumpKey = true;
             verticalSpeed = initialJumpSpeed;
             anim.SetTrigger("Jumping");
@@ -133,11 +138,21 @@ public class PlayerController : MonoBehaviour
         jumpKey = false;
     }
 
-    internal void AttackStart() {
-        if (canAttack) {
-            canAttack = false;
-            Instantiate(attackPrefab, transform);
-            print("J'attaque! ^^");
+    internal void AttackStart()
+    {
+        if (canAttack)
+        {
+            if (attackPrefab != null)
+            {
+                canAttack = false;
+                Instantiate(attackPrefab, transform);
+                anim.SetTrigger("Attack"); // Trigger the Elf_WalkAttack animation
+                print("J'attaque! ^^");
+            }
+            else
+            {
+                Debug.LogError("attackPrefab is not assigned in PlayerController");
+            }
         }
     }
 }
