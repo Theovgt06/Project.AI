@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,6 +18,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Références")]
     [SerializeField] private GameObject attackPrefab;
+    [SerializeField] private float attackDuration = 1f; // Duration of the attack animation
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -140,25 +142,29 @@ public class PlayerController : MonoBehaviour
 
     internal void AttackStart()
     {
-        if (attackPrefab != null)
+        if (canAttack)
         {
-            Instantiate(attackPrefab, transform);
-            anim.SetTrigger("Attack"); // Trigger the Elf_WalkAttack animation
-            anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
-            print("J'attaque! ^^");
-        }
-        else
-        {
-            Debug.LogError("attackPrefab is not assigned in PlayerController");
+            if (attackPrefab != null)
+            {
+                canAttack = false;
+                Instantiate(attackPrefab, transform);
+                anim.SetTrigger("Attack"); // Trigger the attack animation
+                anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
+                print("J'attaque! ^^");
+                StartCoroutine(ResetOverrideAfterAnimation(attackDuration));
+            }
+            else
+            {
+                Debug.LogError("attackPrefab is not assigned in PlayerController");
+            }
         }
     }
 
-    private void Update()
+    private IEnumerator ResetOverrideAfterAnimation(float duration)
     {
-        // Check if the attack animation is finished
-        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Elf_WalkAttack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
-        {
-            anim.SetBool("OVERRIDE", false); // Set OVERRIDE to false
-        }
+        // Wait for the attack animation to finish
+        yield return new WaitForSeconds(duration);
+        anim.SetBool("OVERRIDE", false); // Set OVERRIDE to false
+        canAttack = true; // Allow attacking again
     }
 }

@@ -303,6 +303,7 @@ MonoBehaviour:
     minNormalAngle: 85
     maxNormalAngle: 95
   attackPrefab: {fileID: 0}
+  attackDuration: 1
 --- !u!114 &2589849956357356796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,7 +316,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafd819cf85e0e945bc703bf0b8a5308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
+  currentHealth: 5
   lifeBar: {fileID: 0}
   invulnerability: 0
   invulnerabilityTime: 1
+  deathSceneName: DeathScene
