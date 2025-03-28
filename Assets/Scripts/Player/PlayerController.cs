@@ -140,19 +140,25 @@ public class PlayerController : MonoBehaviour
 
     internal void AttackStart()
     {
-        if (canAttack)
+        if (attackPrefab != null)
         {
-            if (attackPrefab != null)
-            {
-                canAttack = false;
-                Instantiate(attackPrefab, transform);
-                anim.SetTrigger("Attack"); // Trigger the Elf_WalkAttack animation
-                print("J'attaque! ^^");
-            }
-            else
-            {
-                Debug.LogError("attackPrefab is not assigned in PlayerController");
-            }
+            Instantiate(attackPrefab, transform);
+            anim.SetTrigger("Attack"); // Trigger the Elf_WalkAttack animation
+            anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
+            print("J'attaque! ^^");
+        }
+        else
+        {
+            Debug.LogError("attackPrefab is not assigned in PlayerController");
+        }
+    }
+
+    private void Update()
+    {
+        // Check if the attack animation is finished
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Elf_WalkAttack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        {
+            anim.SetBool("OVERRIDE", false); // Set OVERRIDE to false
         }
     }
 }
