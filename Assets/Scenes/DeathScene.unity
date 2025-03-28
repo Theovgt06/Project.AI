@@ -538,7 +538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b0e7b75d421184b9e55daa1e72ffa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathImage: {fileID: 0}
+  deathImage: {fileID: 782484232}
 --- !u!4 &1927134040
 Transform:
   m_ObjectHideFlags: 0

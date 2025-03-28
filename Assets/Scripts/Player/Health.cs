@@ -24,12 +24,9 @@ public class Health : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(UnityEngine.Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Spike") && !invulnerability)
-        {
-            TakeDamage(1);
-        }
+        
         if (collision.gameObject.CompareTag("LAMORKITU") && !invulnerability)
         {
             TakeDamage(100000);
@@ -73,4 +70,5 @@ public class Health : MonoBehaviour
         Debug.Log("Loading death scene after death animation.");
         SceneManager.LoadScene(deathSceneName); // Load the death scene
     }
+
 }

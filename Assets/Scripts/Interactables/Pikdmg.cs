@@ -13,5 +13,6 @@ public class PikDmg : MonoBehaviour
                 health.TakeDamage(1);
             }
         }
+       
     }
 }
