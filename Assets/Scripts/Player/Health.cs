@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Health : MonoBehaviour
@@ -13,6 +14,7 @@ public class Health : MonoBehaviour
     private PlayerInput playerInput;
     public bool invulnerability;
     [SerializeField] private float invulnerabilityTime = 1;
+    [SerializeField] private string deathSceneName = "DeathScene"; // Name of the death scene
 
     private void Start()
     {
@@ -39,6 +41,8 @@ public class Health : MonoBehaviour
             animator.SetBool("Dead", true);
             currentHealth = 0; // Ensure health does not go negative
             playerInput.enabled = false;
+            Debug.Log("Player is dead. Waiting for death animation to finish.");
+            StartCoroutine(LoadDeathSceneBeforeAnimationEnds());
         }
         else
         {
@@ -48,11 +52,21 @@ public class Health : MonoBehaviour
         lifeBar.UpdateHealth(currentHealth); // Update the life bar
     }
 
-    private IEnumerator InvulnerabilityCoroutine (float timeInSeconds) {
+    private IEnumerator InvulnerabilityCoroutine(float timeInSeconds)
+    {
         invulnerability = true;
         yield return new WaitForSeconds(timeInSeconds);
         invulnerability = false;
         animator.SetBool("Hit", false);
         animator.SetBool("OVERRIDE", false);
+    }
+
+    private IEnumerator LoadDeathSceneBeforeAnimationEnds()
+    {
+        // Wait for the death animation to almost finish (1 second before the end)
+        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animationLength - 1.0f);
+        Debug.Log("Loading death scene 1 second before the animation ends.");
+        SceneManager.LoadScene("DeathScene"); // Load the death scene
     }
 }
