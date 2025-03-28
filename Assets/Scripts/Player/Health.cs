@@ -15,6 +15,7 @@ public class Health : MonoBehaviour
     public bool invulnerability;
     [SerializeField] private float invulnerabilityTime = 1;
     [SerializeField] private string deathSceneName = "DeathScene"; // Name of the death scene
+    [SerializeField] private float deathAnimationDuration = 5f; // Duration to wait before transitioning to the death scene
 
     private void Start()
     {
@@ -46,7 +47,7 @@ public class Health : MonoBehaviour
             currentHealth = 0; // Ensure health does not go negative
             playerInput.enabled = false;
             Debug.Log("Player is dead. Waiting for death animation to finish.");
-            StartCoroutine(LoadDeathSceneBeforeAnimationEnds());
+            StartCoroutine(PlayDeathAnimation());
         }
         else
         {
@@ -65,12 +66,11 @@ public class Health : MonoBehaviour
         animator.SetBool("OVERRIDE", false);
     }
 
-    private IEnumerator LoadDeathSceneBeforeAnimationEnds()
+    private IEnumerator PlayDeathAnimation()
     {
-        // Wait for the death animation to almost finish (1 second before the end)
-        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
-        yield return new WaitForSeconds(animationLength - 1.0f);
-        Debug.Log("Loading death scene 1 second before the animation ends.");
-        SceneManager.LoadScene("DeathScene"); // Load the death scene
+        // Wait for the death animation to play for the specified duration
+        yield return new WaitForSeconds(deathAnimationDuration);
+        Debug.Log("Loading death scene after death animation.");
+        SceneManager.LoadScene(deathSceneName); // Load the death scene
     }
 }
