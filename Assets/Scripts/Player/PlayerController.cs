@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
 
     [Header("Références")]
     [SerializeField] private GameObject attackPrefab;
-    
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -78,21 +77,26 @@ public class PlayerController : MonoBehaviour
         if (rb)
         {
             // print(IsGrounded);
-            if (IsGrounded) {
+            if (IsGrounded)
+            {
                 // verticalSpeed = math.max(0, verticalSpeed);
-                if (verticalSpeed < 0) {
+                if (verticalSpeed < 0)
+                {
                     verticalSpeed = 0;
                     // print("test");
                     anim.SetTrigger("Landing");
                     anim.SetBool("Airborne", false);
                 }
             }
-            else {
+            else
+            {
                 anim.SetBool("Airborne", true);
-                if (jumpKey) {
+                if (jumpKey)
+                {
                     verticalSpeed -= jumpAcceleration;
                 }
-                else {
+                else
+                {
                     verticalSpeed -= fallAcceleration;
                 }
                 verticalSpeed = math.max(verticalSpeed, -fallSpeedCap);
@@ -120,7 +124,8 @@ public class PlayerController : MonoBehaviour
 
     internal void JumpStart()
     {
-        if (IsGrounded) {
+        if (IsGrounded)
+        {
             jumpKey = true;
             verticalSpeed = initialJumpSpeed;
             anim.SetTrigger("Jumping");
@@ -133,11 +138,27 @@ public class PlayerController : MonoBehaviour
         jumpKey = false;
     }
 
-    internal void AttackStart() {
-        if (canAttack) {
-            canAttack = false;
+    internal void AttackStart()
+    {
+        if (attackPrefab != null)
+        {
             Instantiate(attackPrefab, transform);
+            anim.SetTrigger("Attack"); // Trigger the Elf_WalkAttack animation
+            anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
             print("J'attaque! ^^");
+        }
+        else
+        {
+            Debug.LogError("attackPrefab is not assigned in PlayerController");
+        }
+    }
+
+    private void Update()
+    {
+        // Check if the attack animation is finished
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("Elf_WalkAttack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        {
+            anim.SetBool("OVERRIDE", false); // Set OVERRIDE to false
         }
     }
 }

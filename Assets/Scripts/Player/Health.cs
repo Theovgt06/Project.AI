@@ -25,7 +25,10 @@ public class Health : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-       
+        if (collision.gameObject.CompareTag("Spike") && !invulnerability)
+        {
+            TakeDamage(1);
+        }
         if (collision.gameObject.CompareTag("LAMORKITU") && !invulnerability)
         {
             TakeDamage(100000);
