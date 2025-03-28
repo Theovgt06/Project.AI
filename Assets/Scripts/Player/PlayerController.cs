@@ -144,12 +144,19 @@ public class PlayerController : MonoBehaviour
     {
         if (canAttack)
         {
-            canAttack = false;
-            Instantiate(attackPrefab, transform);
-            anim.SetTrigger("Attack"); // Trigger the attack animation
-            anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
-            print("J'attaque! ^^");
-            StartCoroutine(ResetOverrideAfterAnimation(attackDuration));
+            if (attackPrefab != null)
+            {
+                canAttack = false;
+                Instantiate(attackPrefab, transform);
+                anim.SetTrigger("Attack"); // Trigger the attack animation
+                anim.SetBool("OVERRIDE", true); // Set OVERRIDE to true
+                print("J'attaque! ^^");
+                StartCoroutine(ResetOverrideAfterAnimation(attackDuration));
+            }
+            else
+            {
+                Debug.LogError("attackPrefab is not assigned in PlayerController");
+            }
         }
     }
 
