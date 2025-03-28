@@ -238,11 +238,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8780456937689420474, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -4.55
       objectReference: {fileID: 0}
     - target: {fileID: 8780456937689420474, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.51
+      value: -1.47
       objectReference: {fileID: 0}
     - target: {fileID: 8780456937689420474, guid: 359d7ec9931f6464e935f044674e4521, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3110,7 +3110,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2871039904856787694, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.83
+      value: -1.79
       objectReference: {fileID: 0}
     - target: {fileID: 2871039904856787694, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3148,13 +3148,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3756045218033487465, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5626305651548124913, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
+      propertyPath: m_GravityScale
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6128846174122841834, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
       propertyPath: m_Name
       value: Skeleton
       objectReference: {fileID: 0}
+    - target: {fileID: 6128846174122841834, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6459813667415955631, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
-      propertyPath: initialTarget.x
-      value: 4
+      propertyPath: moveSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6780088284946026984, guid: 93bcdb8d27566a043b083323aedd7244, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3172,6 +3188,10 @@ PrefabInstance:
     - target: {fileID: 1822745551489163202, guid: 892cbbe1f27f0b248885b825ec8808f3, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2715547731765786680, guid: 892cbbe1f27f0b248885b825ec8808f3, type: 3}
+      propertyPath: orthographic size
+      value: 7.37
       objectReference: {fileID: 0}
     - target: {fileID: 4443317395256244331, guid: 892cbbe1f27f0b248885b825ec8808f3, type: 3}
       propertyPath: m_Name
