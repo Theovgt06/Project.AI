@@ -17,7 +17,7 @@ public class MovementInputHandler : InputHandler
         {
             playerInput.actions["Move"].performed += OnMovePerformed;
             playerInput.actions["Move"].canceled += OnMoveCanceled;
-
+            
             playerInput.actions["Jump"].performed += OnJumpPerformed;
             playerInput.actions["Jump"].canceled += OnJumpCanceled;
 
@@ -33,20 +33,13 @@ public class MovementInputHandler : InputHandler
 
     private void OnAttackCanceled(InputAction.CallbackContext context)
     {
-        // Implement any behavior needed when the attack is canceled
-        // For now, we leave it empty
+
+        throw new NotImplementedException();
     }
 
     private void OnAttackPerformed(InputAction.CallbackContext context)
     {
-        if (playerController != null)
-        {
-            playerController.AttackStart();
-        }
-        else
-        {
-            Debug.LogError("PlayerController non assigné dans MovementInputHandler");
-        }
+        throw new NotImplementedException();
     }
 
     protected override void UnregisterInputActions()
@@ -56,7 +49,7 @@ public class MovementInputHandler : InputHandler
         {
             playerInput.actions["Move"].performed -= OnMovePerformed;
             playerInput.actions["Move"].canceled -= OnMoveCanceled;
-
+            
             playerInput.actions["Jump"].performed -= OnJumpPerformed;
             playerInput.actions["Jump"].canceled -= OnJumpCanceled;
 
@@ -87,8 +80,7 @@ public class MovementInputHandler : InputHandler
         }
     }
 
-    private void OnJumpPerformed(InputAction.CallbackContext context)
-    {
+    private void OnJumpPerformed(InputAction.CallbackContext context) {
         if (playerController != null)
         {
             playerController.JumpStart();
