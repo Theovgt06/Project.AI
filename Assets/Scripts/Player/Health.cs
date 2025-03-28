@@ -39,11 +39,11 @@ public class Health : MonoBehaviour
         animator.SetBool("OVERRIDE", true); //Empèche la plupart des transitions
         if (currentHealth <= 0)
         {
+            animator.SetBool("Dead", true);
             currentHealth = 0; // Ensure health does not go negative
             playerInput.enabled = false;
-            Debug.Log("Player is dead. Playing death animation.");
-            animator.SetTrigger("Dead"); // Use SetTrigger to ensure the animation plays
-            StartCoroutine(LoadDeathSceneAfterSeconds(2f));
+            Debug.Log("Player is dead. Waiting for death animation to finish.");
+            StartCoroutine(LoadDeathSceneBeforeAnimationEnds());
         }
         else
         {
@@ -62,10 +62,12 @@ public class Health : MonoBehaviour
         animator.SetBool("OVERRIDE", false);
     }
 
-    private IEnumerator LoadDeathSceneAfterSeconds(float seconds)
+    private IEnumerator LoadDeathSceneBeforeAnimationEnds()
     {
-        yield return new WaitForSeconds(seconds);
-        Debug.Log($"Loading death scene after {seconds} seconds.");
-        SceneManager.LoadScene(deathSceneName); // Load the death scene
+        // Wait for the death animation to almost finish (1 second before the end)
+        float animationLength = animator.GetCurrentAnimatorStateInfo(0).length;
+        yield return new WaitForSeconds(animationLength - 1.0f);
+        Debug.Log("Loading death scene 1 second before the animation ends.");
+        SceneManager.LoadScene("DeathScene"); // Load the death scene
     }
 }
