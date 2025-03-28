@@ -27,6 +27,10 @@ public class Health : MonoBehaviour
         {
             TakeDamage(1);
         }
+        if (collision.gameObject.CompareTag("LAMORKITU") && !invulnerability)
+        {
+            TakeDamage(100000);
+        }
     }
 
     // Method to inflict damage to the player
