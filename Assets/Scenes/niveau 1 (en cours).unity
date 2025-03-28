@@ -3761,7 +3761,7 @@ MonoBehaviour:
   minX: -4.6
   maxX: 10
   minY: -4
-  maxY: 10000
+  maxY: 10
   snapDistance: 0.05
 --- !u!1001 &5522781759200821498
 PrefabInstance:
