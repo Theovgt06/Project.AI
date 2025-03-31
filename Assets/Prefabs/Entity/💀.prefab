@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3012606653045288220}
   m_Layer: 0
   m_Name: AttackRange
-  m_TagString: Untagged
+  m_TagString: EnnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,6 +215,7 @@ MonoBehaviour:
   initialTarget: {x: 4, y: 0, z: 0}
   optimalAttackDistance: 2.5
   pauseTime: 1
+  attacking: 0
 --- !u!50 &5626305651548124913
 Rigidbody2D:
   serializedVersion: 5
