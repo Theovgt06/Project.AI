@@ -26,10 +26,15 @@ public class Health : MonoBehaviour
 
     void OnTriggerEnter2D(UnityEngine.Collider2D collision)
     {
-        
-        if (collision.gameObject.CompareTag("LAMORKITU") && !invulnerability)
-        {
-            TakeDamage(100000);
+        if (!invulnerability) {
+            if (collision.gameObject.CompareTag("LAMORKITU"))
+            {
+                TakeDamage(100000);
+            }
+            else if (collision.gameObject.CompareTag("EnnemyAttack"))
+            {
+                TakeDamage(2);
+            }
         }
     }
 

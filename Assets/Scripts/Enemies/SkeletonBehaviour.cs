@@ -8,7 +8,6 @@ using UnityEngine;
 public class MeleeEnnemy : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float verticalSpeed = 0;
     [SerializeField] private bool facingRight = true;
     [SerializeField] private Vector3 currentTarget;
     [SerializeField] private bool targetIsPlayer = false;
@@ -48,7 +47,7 @@ public class MeleeEnnemy : MonoBehaviour
                     Flip(); //to face the player
                 }
                 if (math.abs(currentTarget.x - transform.position.x) < optimalAttackDistance) {
-                    print("I'm skelattacking");
+                    // print("I'm skelattacking");
                     walking = false;
                     animator.SetTrigger("Attack");
                     attacking = true;
@@ -71,7 +70,7 @@ public class MeleeEnnemy : MonoBehaviour
                 if ((facingRight && transform.position.x > currentTarget.x) ||
                     (!facingRight && transform.position.x < currentTarget.x))
                 {
-                    print("I'm really feeling the skeleboredom");
+                    // print("I'm really feeling the skeleboredom");
                     currentTarget = transform.position - initialTarget;
                     walking = false;
                     pausing = true;
@@ -98,7 +97,7 @@ public class MeleeEnnemy : MonoBehaviour
     private IEnumerator PauseWaitCoroutine(float timeInSeconds) {
         yield return new WaitForSeconds(timeInSeconds);
         if (pausing) {
-            print("No skeletactivity detected");
+            // print("No skeletactivity detected");
             Flip();
             if (!walking) {
                 walking = true;
@@ -121,7 +120,7 @@ public class MeleeEnnemy : MonoBehaviour
 
     internal void SpotPlayer(Collider2D collider)
     {
-        print("That's the player!");
+        // print("That's the player!");
         targetIsPlayer = true;
         spotedPlayerCollider = collider;
         pausing = false;
@@ -129,7 +128,7 @@ public class MeleeEnnemy : MonoBehaviour
 
     internal void LosePlayer()
     {
-        print("Where player?");
+        // print("Where player?");
         targetIsPlayer = false;
         spotedPlayerCollider = null;
         currentTarget = transform.position - initialTarget;
